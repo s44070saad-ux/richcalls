@@ -1,0 +1,1658 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="dark light" />
+<link rel="icon" href="data:," />
+<meta name="description" content="Become a partner on our PRIMARY campaign — Home Services: Plumbing, Electrician, HVAC, Roofing & more trades for UK & US homeowners, paid per qualified call. Furniture (beds & sofas) is our secondary campaign. Laptop / PC preferred to earn a handsome amount. No investment, free training, weekly payouts." />
+<title>Rich Calls — Home Services First | Plumbing, Electrician, HVAC & More — Get Paid Per Qualified Call</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --navy:#060a15; --navy-2:#0a101f; --navy-3:#0e1628; --navy-4:#131e36;
+  --line-dark:rgba(148,178,255,.14); --line-dark-2:rgba(148,178,255,.22);
+  --ink:#0b1220; --ink-2:#1e293b; --muted:#5b6b82; --muted-light:#94a7c4;
+  --blue:#2563eb; --blue-2:#2f6bff; --blue-soft:#e8efff;
+  --green:#22c55e; --green-dark:#16a34a; --green-soft:#e7f9ee;
+  --red:#f87171; --gold:#f5b83d;
+  --white:#ffffff; --paper:#fbfcfe;
+  --radius:14px; --radius-lg:28px;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--navy);color:#e8eef8;font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{line-height:1.08;letter-spacing:-.02em;margin:0;font-weight:800}
+img{max-width:100%;display:block}
+a{color:var(--blue-2)}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--blue-2);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:22px}
+.wrap-narrow{max-width:1020px;margin:0 auto;padding-inline:22px}
+section{scroll-margin-top:96px}
+.view{display:none}
+.view.active{display:block}
+
+/* ============ HEADER ============ */
+header.site{position:sticky;top:0;z-index:80;background:rgba(6,10,21,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line-dark)}
+.site-inner{display:flex;align-items:center;gap:18px;min-height:68px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;font-size:1.02rem;letter-spacing:-.01em;flex:none}
+.brand .mark{width:32px;height:32px;border-radius:8px;background:var(--blue);display:grid;place-items:center;color:#fff;flex:none}
+.brand small{display:block;font-size:.64rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--muted-light)}
+nav.main{display:flex;gap:2px;margin-inline:auto}
+nav.main>a, .nav-drop>button{color:#dbe6f7;text-decoration:none;font-weight:600;font-size:.92rem;padding:10px 12px;border-radius:8px;min-height:44px;display:inline-flex;align-items:center;gap:5px;background:none;border:0;cursor:pointer}
+nav.main>a:hover,.nav-drop>button:hover{background:rgba(255,255,255,.07);color:#fff}
+nav.main>a.active{color:#fff;background:rgba(37,99,235,.28)}
+.nav-drop{position:relative}
+.nav-panel{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(4px);min-width:290px;background:#0d1526;border:1px solid var(--line-dark-2);border-radius:16px;padding:10px;opacity:0;pointer-events:none;transition:opacity .15s ease,transform .15s ease;box-shadow:0 24px 50px rgba(0,0,0,.5);z-index:90}
+.nav-drop.open .nav-panel{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.nav-panel a{display:flex;gap:12px;padding:11px 12px;border-radius:10px;color:#e8eef8;text-decoration:none;align-items:flex-start}
+.nav-panel a:hover{background:rgba(255,255,255,.06)}
+.nav-panel a .np-ic{flex:none;width:34px;height:34px;border-radius:9px;background:rgba(37,99,235,.22);color:#7db1ff;display:grid;place-items:center}
+.nav-panel a b{display:block;font-size:.93rem;font-weight:700}
+.nav-panel a span{display:block;font-size:.82rem;color:var(--muted-light);line-height:1.45}
+.head-ctas{display:flex;gap:10px;flex:none;margin-left:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:.98rem;padding:13px 24px;min-height:50px;border-radius:10px;border:0;cursor:pointer;text-decoration:none;transition:background .15s ease;white-space:nowrap}
+.btn-blue{background:var(--blue);color:#fff}
+.btn-blue:hover{background:#1d4ed8}
+.btn-dark{background:#0b1220;color:#fff}
+.btn-dark:hover{background:#1e293b}
+.btn-white{background:#fff;color:#0b1220}
+.btn-white:hover{background:#e6edf9}
+.btn-ghostlight{background:transparent;color:#fff;border:1.5px solid var(--line-dark-2)}
+.btn-ghostlight:hover{border-color:#5b7bb5}
+.btn-outline{background:#fff;color:var(--ink);border:1.5px solid #d5deee}
+.btn-outline:hover{border-color:#9db2d4}
+.btn-sm{padding:9px 17px;min-height:44px;font-size:.9rem}
+.btn-lg{padding:16px 30px;font-size:1.03rem;min-height:56px}
+.menu-btn{display:none;margin-left:auto;background:none;border:1px solid var(--line-dark-2);border-radius:9px;color:#fff;width:46px;height:46px;cursor:pointer;place-items:center}
+.mobile-nav{display:none;border-top:1px solid var(--line-dark);padding:10px 0 16px}
+.mobile-nav.open{display:block}
+.mobile-nav a{display:flex;align-items:center;min-height:48px;padding:8px 4px;color:#e8eef8;text-decoration:none;font-weight:600;border-bottom:1px solid rgba(148,178,255,.08)}
+.mobile-nav a:last-child{border-bottom:0}
+@media(max-width:1020px){nav.main{display:none}.head-ctas .btn-white{display:none}}
+@media(max-width:640px){.head-ctas{display:none}.menu-btn{display:grid}.brand small{display:none}}
+
+/* ============ SHEETS / SECTIONS ============ */
+.sheet{background:var(--paper);color:var(--ink);border-radius:32px;margin:14px 12px;padding:76px 0 84px;position:relative;overflow:hidden}
+.sheet.grid-bg{background-image:linear-gradient(rgba(37,99,235,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(37,99,235,.055) 1px,transparent 1px);background-size:44px 44px;background-color:var(--paper)}
+.sheet.white{background:#fff}
+.dark-sec{padding:84px 0 90px;color:#e8eef8}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--blue);margin:0 0 16px}
+.eyebrow.on-dark{color:#7db1ff}
+.sec-head{max-width:46rem;margin:0 auto 46px;text-align:center}
+.sec-head.left{margin-inline:0;text-align:left}
+.sec-head h2{font-size:clamp(1.85rem,3.6vw,2.7rem);color:var(--ink)}
+.dark-sec .sec-head h2{color:#fff}
+.sec-head p{color:var(--muted);font-size:1.08rem;margin:14px 0 0}
+.dark-sec .sec-head p{color:var(--muted-light)}
+.pill{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid #d9e4f7;color:var(--blue);font-weight:600;font-size:.86rem;padding:8px 16px;border-radius:999px;box-shadow:0 2px 10px rgba(15,40,90,.06)}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:var(--blue);flex:none}
+
+/* ============ HERO ============ */
+.hero{text-align:center;padding-top:8px}
+.hero h1{font-size:clamp(2.5rem,5.6vw,4.15rem);font-weight:900;color:var(--ink);max-width:56rem;margin:26px auto 0}
+.hero h1 .u{position:relative;white-space:nowrap}
+.hero h1 .u::after{content:"";position:absolute;left:0;right:0;bottom:.02em;height:.14em;background:var(--blue);border-radius:99px}
+.hero .lede{font-size:1.16rem;color:var(--muted);max-width:44rem;margin:24px auto 0;line-height:1.65}
+.hero .lede strong{color:var(--ink-2)}
+.hero-ctas{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:32px}
+.check-row{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 26px;margin-top:20px;font-size:.92rem;font-weight:600;color:var(--ink-2)}
+.check-row span{display:inline-flex;gap:7px;align-items:center}
+.check-row svg{color:var(--blue);flex:none}
+.check-row.green svg{color:var(--green-dark)}
+.sticky-note{display:inline-block;background:#fff;border:1px solid #e2e8f2;border-radius:10px;padding:8px 14px;font-size:.82rem;font-weight:600;color:var(--muted);transform:rotate(-4deg);box-shadow:0 6px 16px rgba(15,40,90,.08);margin-bottom:6px}
+.sample-tag{font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;background:rgba(245,184,61,.16);color:#e9a90c;border:1px solid rgba(245,184,61,.4);padding:3px 9px;border-radius:99px}
+
+/* dashboard demo */
+.demo{max-width:1020px;margin:52px auto 0;text-align:left}
+.demo-tabs{display:flex;gap:6px;flex-wrap:wrap;background:#eef2fa;border:1px solid #dde6f5;border-radius:14px;padding:6px;width:fit-content;margin:0 auto 14px}
+.demo-tabs button{border:0;background:transparent;font-weight:600;font-size:.9rem;color:var(--muted);padding:9px 16px;border-radius:9px;cursor:pointer;display:inline-flex;gap:7px;align-items:center;min-height:42px}
+.demo-tabs button.active{background:#fff;color:var(--ink);box-shadow:0 2px 8px rgba(15,40,90,.1)}
+.demo-frame{background:#0a111f;border:1px solid #1c2a47;border-radius:20px;overflow:hidden;box-shadow:0 34px 70px rgba(6,20,50,.28)}
+.demo-bar{display:flex;align-items:center;gap:8px;padding:13px 18px;border-bottom:1px solid rgba(148,178,255,.12)}
+.demo-bar .tdot{width:11px;height:11px;border-radius:50%}
+.demo-bar .demo-title{margin-left:10px;font-size:.86rem;font-weight:600;color:#c6d5ee}
+.demo-body{display:grid;grid-template-columns:196px 1fr;min-height:340px}
+.demo-side{border-right:1px solid rgba(148,178,255,.1);padding:18px 14px;display:grid;align-content:start;gap:4px}
+.demo-side a{display:flex;gap:9px;align-items:center;color:#9db1d1;text-decoration:none;font-size:.88rem;font-weight:600;padding:9px 10px;border-radius:8px}
+.demo-side a.on{background:rgba(37,99,235,.2);color:#fff}
+.demo-side .side-label{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:#5f7396;font-weight:700;margin:12px 10px 4px}
+.demo-main{padding:20px 22px}
+.demo-panel{display:none}
+.demo-panel.active{display:block}
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.kpi{background:#101a2e;border:1px solid rgba(148,178,255,.12);border-radius:12px;padding:14px 15px}
+.kpi span{display:block;font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:#7d93b8;font-weight:700}
+.kpi b{display:block;font-size:1.42rem;color:#fff;margin-top:5px;letter-spacing:-.01em}
+.kpi em{font-style:normal;font-size:.78rem;font-weight:700;color:var(--green)}
+.kpi em.down{color:var(--red)}
+.mini-table{width:100%;border-collapse:collapse;margin-top:16px;font-size:.88rem}
+.mini-table th{text-align:left;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:#7d93b8;font-weight:700;padding:8px 10px;border-bottom:1px solid rgba(148,178,255,.14)}
+.mini-table td{padding:10px;border-bottom:1px solid rgba(148,178,255,.07);color:#d7e3f5}
+.mini-table tr:last-child td{border-bottom:0}
+.status{display:inline-flex;font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:99px}
+.status.q{background:rgba(34,197,94,.16);color:#4ade80}
+.status.p{background:rgba(245,184,61,.15);color:#fbbf24}
+.status.d{background:rgba(248,113,113,.14);color:#f87171}
+.bar-row{display:grid;grid-template-columns:110px 1fr 44px;gap:12px;align-items:center;margin-top:13px;font-size:.86rem;color:#c6d5ee;font-weight:600}
+.bar-track{height:9px;background:#16223c;border-radius:99px;overflow:hidden}
+.bar-fill{height:100%;background:var(--blue-2);border-radius:99px}
+.bar-fill.g{background:var(--green)}
+.demo-note{display:flex;gap:10px;align-items:center;justify-content:center;margin-top:14px;font-size:.84rem;color:var(--muted);font-weight:600;flex-wrap:wrap;text-align:center}
+@media(max-width:860px){.demo-body{grid-template-columns:1fr}.demo-side{display:none}.kpi-row{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.kpi-row{grid-template-columns:1fr 1fr}.mini-table th:nth-child(4),.mini-table td:nth-child(4){display:none}}
+
+/* works-with strip */
+.works{margin-top:56px;text-align:center}
+.works p{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:#8496b3;font-weight:700;margin:0 0 16px}
+.works-row{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.works-row span{display:inline-flex;align-items:center;gap:8px;background:#0d1526;border:1px solid var(--line-dark);color:#dbe6f7;font-weight:600;font-size:.9rem;padding:10px 17px;border-radius:99px}
+.works-row span i{width:8px;height:8px;border-radius:50%;background:var(--green);flex:none}
+
+/* ============ WHO / TABS ============ */
+.who-tabs{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:34px}
+.who-tabs button{border:1.5px solid var(--line-dark-2);background:transparent;color:#c6d5ee;font-weight:700;font-size:.95rem;padding:11px 22px;border-radius:99px;cursor:pointer;min-height:48px}
+.who-tabs button.active{background:#fff;color:var(--ink);border-color:#fff}
+.who-panel{display:none}
+.who-panel.active{display:block}
+.who-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:26px;align-items:center;max-width:980px;margin:0 auto}
+.who-col{display:grid;gap:12px}
+.who-chip{display:flex;gap:12px;align-items:flex-start;background:var(--navy-3);border:1px solid var(--line-dark);border-radius:14px;padding:16px 18px}
+.who-chip .wc-ic{flex:none;width:38px;height:38px;border-radius:10px;background:rgba(37,99,235,.22);color:#7db1ff;display:grid;place-items:center}
+.who-chip b{display:block;color:#fff;font-size:.97rem}
+.who-chip span{display:block;color:var(--muted-light);font-size:.87rem;line-height:1.5}
+.who-center{background:var(--navy-3);border:1.5px solid rgba(37,99,235,.5);border-radius:18px;padding:26px 22px;text-align:center;min-width:190px}
+.who-center .mark{width:46px;height:46px;border-radius:12px;background:var(--blue);display:grid;place-items:center;color:#fff;margin:0 auto 12px}
+.who-center b{color:#fff;display:block;font-size:1.02rem}
+.who-center span{color:var(--muted-light);font-size:.82rem}
+@media(max-width:860px){.who-grid{grid-template-columns:1fr}.who-center{order:-1}}
+
+/* ============ FLOW ============ */
+.flow{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:20px;align-items:stretch}
+.flow-col h4{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:6px}
+.flow-col>p{text-align:center;font-size:.86rem;color:var(--muted);margin:0 0 16px}
+.flow-card{background:#0b1220;color:#e8eef8;border-radius:14px;padding:17px 18px;display:flex;gap:13px;align-items:center;margin-bottom:12px}
+.flow-card .fc-ic{flex:none;width:40px;height:40px;border-radius:10px;background:rgba(255,255,255,.08);display:grid;place-items:center;color:#7db1ff}
+.flow-card b{display:block;font-size:.97rem;color:#fff}
+.flow-card span{display:block;font-size:.84rem;color:#9db1d1;line-height:1.45}
+.flow-engine{background:#0b1220;border-radius:18px;padding:14px;display:grid;gap:10px;align-content:start}
+.flow-step{background:#0d2417;border:1px solid rgba(34,197,94,.3);border-radius:12px;padding:15px 17px;display:flex;gap:13px}
+.flow-step .fs-ic{flex:none;width:38px;height:38px;border-radius:10px;background:rgba(34,197,94,.18);color:#4ade80;display:grid;place-items:center}
+.flow-step b{color:#fff;display:block;font-size:.95rem}
+.flow-step span{color:#a7c9b4;font-size:.84rem;line-height:1.45;display:block}
+@media(max-width:900px){.flow{grid-template-columns:1fr}}
+
+/* capability tiles */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tile{background:var(--navy-3);border:1px solid var(--line-dark);border-radius:14px;padding:20px}
+.tile .t-ic{width:40px;height:40px;border-radius:10px;background:rgba(37,99,235,.2);color:#7db1ff;display:grid;place-items:center;margin-bottom:13px}
+.tile b{display:block;color:#fff;font-size:.96rem;margin-bottom:5px}
+.tile p{margin:0;color:var(--muted-light);font-size:.86rem;line-height:1.55}
+@media(max-width:1020px){.tiles{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:720px){.tiles{grid-template-columns:1fr 1fr}}
+@media(max-width:460px){.tiles{grid-template-columns:1fr}}
+
+/* product cards */
+.products{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.product{background:#fff;border:1px solid #e2e8f2;border-radius:20px;overflow:hidden}
+.product img{aspect-ratio:16/9.5;height:320px;object-fit:cover;width:100%}
+.product .p-body{padding:24px 26px 28px}
+.product h3{font-size:1.28rem;color:var(--ink);margin-bottom:8px}
+.product p{margin:0;color:var(--muted)}
+@media(max-width:760px){.products{grid-template-columns:1fr}.product img{height:240px}}
+.market-strip{margin-top:18px;background:#0b1220;color:#e8eef8;border-radius:20px;padding:30px 32px;display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center}
+.market-strip h3{margin:0 0 8px;font-size:1.32rem;color:#fff}
+.market-strip p{margin:0;color:#9db1d1}
+.market-facts{list-style:none;margin:0;padding:0;display:grid;gap:11px;font-weight:600;font-size:.96rem}
+.market-facts li{display:flex;justify-content:space-between;gap:14px;border-bottom:1px solid rgba(148,178,255,.16);padding-bottom:10px}
+.market-facts li:last-child{border-bottom:0;padding-bottom:0}
+.market-facts span{color:#9db1d1;font-weight:500;text-align:right}
+@media(max-width:760px){.market-strip{grid-template-columns:1fr}}
+
+/* tiers (pricing-style) */
+.tier-shell{background:#fff;border-radius:26px;padding:14px;color:var(--ink)}
+.tier-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tier-card{border:1.5px solid #e2e8f2;border-radius:18px;padding:28px 24px;display:flex;flex-direction:column}
+.tier-card.featured{border-color:var(--blue);box-shadow:0 18px 40px rgba(37,99,235,.16);position:relative}
+.tier-flag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--blue);color:#fff;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 13px;border-radius:99px;white-space:nowrap}
+.tier-card .t-name{font-weight:800;font-size:1.05rem;display:flex;align-items:center;gap:9px}
+.tier-card .t-rate{font-size:1.9rem;font-weight:900;letter-spacing:-.02em;margin:14px 0 2px}
+.tier-card .t-rate small{font-size:.85rem;font-weight:600;color:var(--muted)}
+.tier-card .t-desc{color:var(--muted);font-size:.9rem;margin:8px 0 18px}
+.tier-card ul{list-style:none;margin:0 0 24px;padding:0;display:grid;gap:10px;font-size:.92rem}
+.tier-card ul li{display:flex;gap:9px;align-items:flex-start}
+.tier-card ul svg{color:var(--green-dark);flex:none;margin-top:3px}
+.tier-card .btn{margin-top:auto;width:100%}
+.tier-note{text-align:center;color:var(--muted);font-size:.9rem;margin:18px 6px 6px}
+.medal{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-size:.8rem;font-weight:900;color:#fff;flex:none}
+.medal.b{background:#b07a3f}.medal.s{background:#7c8aa0}.medal.g{background:#d99a16}.medal.n{background:var(--blue)}
+@media(max-width:1020px){.tier-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.tier-grid{grid-template-columns:1fr}}
+
+/* referral band */
+.referral{background:linear-gradient(120deg,#0d2b18,#0b1220 70%);border:1px solid rgba(34,197,94,.35);border-radius:22px;padding:38px 40px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;color:#e8eef8}
+.referral h3{margin:0 0 10px;font-size:clamp(1.4rem,2.8vw,1.9rem);color:#fff}
+.referral p{margin:0;color:#a7c9b4;max-width:38rem}
+.referral .big{font-weight:900;font-size:clamp(2.4rem,5vw,3.4rem);color:var(--green);line-height:1;text-align:center}
+.referral .big small{display:block;font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;color:#a7c9b4;margin-top:9px;font-weight:700}
+@media(max-width:700px){.referral{grid-template-columns:1fr;padding:28px 24px}.referral .big{text-align:left}}
+
+/* eligibility */
+.elig-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:center}
+.elig-grid img{border-radius:20px;aspect-ratio:4/3;height:410px;object-fit:cover;width:100%}
+.checklist{list-style:none;margin:0;padding:0;display:grid;gap:15px}
+.checklist li{display:flex;gap:12px;align-items:flex-start;color:var(--ink)}
+.checklist .ck{flex:none;width:26px;height:26px;border-radius:50%;background:var(--green-soft);color:var(--green-dark);display:grid;place-items:center;margin-top:2px;border:1px solid #bbe7c9}
+.checklist b{display:block;font-weight:700}
+.checklist span{color:var(--muted);font-size:.95rem}
+.support-note{margin-top:22px;background:#eef2fa;border:1px solid #dde6f5;border-radius:12px;padding:16px 20px;font-size:.95rem;color:var(--ink-2)}
+@media(max-width:900px){.elig-grid{grid-template-columns:1fr;gap:28px}.elig-grid img{height:290px}}
+
+/* FAQ */
+.faq-list{display:grid;gap:12px;max-width:54rem;margin:0 auto}
+details.faq{background:var(--navy-3);border:1px solid var(--line-dark);border-radius:14px;padding:4px 22px;color:#e8eef8}
+details.faq summary{cursor:pointer;font-weight:700;font-size:1.03rem;padding:17px 0;min-height:44px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px;color:#fff}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary .chev{flex:none;transition:transform .18s ease;color:#7db1ff}
+details.faq[open ] summary .chev{transform:rotate(180deg)}
+details.faq p{margin:0 0 18px;color:var(--muted-light)}
+.sheet details.faq{background:#fff;border-color:#e2e8f2;color:var(--ink)}
+.sheet details.faq summary{color:var(--ink)}
+.sheet details.faq p{color:var(--muted)}
+
+/* ============ APPLY FORM ============ */
+.apply-shell{background:#fff;border:1px solid #e2e8f2;border-radius:22px;padding:36px;box-shadow:0 24px 50px rgba(6,20,50,.25);color:var(--ink)}
+@media(max-width:560px){.apply-shell{padding:24px 18px}}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:640px){.form-grid{grid-template-columns:1fr}}
+.field{display:grid;gap:7px}
+.field.full{grid-column:1/-1}
+.field label{font-weight:700;font-size:.94rem}
+.field label .req{color:#dc2626}
+.field .hint{font-size:.85rem;color:var(--muted);margin:0}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;color:var(--ink);background:#f7f9fd;border:1.5px solid #d5deee;border-radius:10px;padding:12px 14px;min-height:50px;width:100%}
+.field textarea{min-height:110px;resize:vertical}
+.field input.invalid,.field select.invalid,.field textarea.invalid{border-color:#dc2626}
+.field .err{display:none;color:#dc2626;font-size:.87rem;font-weight:600;margin:0}
+.field .err.show{display:block}
+.scenario{background:#eef2fa;border-radius:10px;padding:13px 16px;font-size:.95rem;margin:0}
+.form-foot{margin-top:24px;display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.form-note{font-size:.9rem;color:var(--muted);margin:0;flex:1 1 260px}
+.form-error-summary{display:none;background:#fef2f2;border:1.5px solid #dc2626;color:#b91c1c;border-radius:10px;padding:13px 16px;font-weight:600;margin-bottom:20px}
+.form-error-summary.show{display:block}
+.result{display:none}
+.result.show{display:block}
+.result-head{display:flex;gap:16px;align-items:flex-start;margin-bottom:8px}
+.result-head .ok{flex:none;width:48px;height:48px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center}
+.result-head h3{margin:2px 0 4px;font-size:1.32rem;color:var(--ink)}
+.result-head p{margin:0;color:var(--muted)}
+.ref-code{font-weight:800;color:var(--blue)}
+.result pre{white-space:pre-wrap;word-break:break-word;background:#f7f9fd;border:1px solid #d5deee;border-radius:10px;padding:18px;font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:.88rem;line-height:1.55;max-height:380px;overflow:auto;margin:18px 0;color:var(--ink)}
+.result-actions{display:flex;flex-wrap:wrap;gap:12px}
+.copied-msg{font-weight:700;color:var(--green-dark);align-self:center}
+
+/* ============ HOME SERVICES ============ */
+.fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.fit-card{border-radius:20px;padding:30px 30px 34px;border:1px solid}
+.fit-card.yes{background:#0c1a12;border-color:rgba(34,197,94,.35)}
+.fit-card.no{background:#141a29;border-color:var(--line-dark)}
+.fit-card h3{display:flex;gap:12px;align-items:center;color:#fff;font-size:1.15rem;margin-bottom:20px}
+.fit-card h3 .fi{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;flex:none}
+.fit-card.yes h3 .fi{background:rgba(34,197,94,.2);color:#4ade80}
+.fit-card.no h3 .fi{background:rgba(248,113,113,.16);color:var(--red)}
+.fit-card ul{list-style:none;margin:0;padding:0;display:grid;gap:15px}
+.fit-card li{display:flex;gap:11px;align-items:flex-start;color:#c9d8ef;font-size:.97rem}
+.fit-card li svg{flex:none;margin-top:4px}
+.fit-card.yes li svg{color:#4ade80}
+.fit-card.no li svg{color:var(--red)}
+.fit-note{margin-top:18px;background:#0d1830;border:1px solid rgba(37,99,235,.4);border-radius:16px;padding:22px 28px;text-align:center;color:#c9d8ef}
+@media(max-width:820px){.fit-grid{grid-template-columns:1fr}}
+.feat4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.feat4 .f4{background:#0b1220;border-radius:16px;padding:24px 22px;color:#e8eef8}
+.feat4 .f4 .t-ic{width:42px;height:42px;border-radius:11px;background:rgba(37,99,235,.22);color:#7db1ff;display:grid;place-items:center;margin-bottom:14px}
+.feat4 .f4 b{display:block;color:#fff;font-size:1rem;margin-bottom:6px}
+.feat4 .f4 p{margin:0;color:#9db1d1;font-size:.88rem;line-height:1.55}
+@media(max-width:1020px){.feat4{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.feat4{grid-template-columns:1fr}}
+.route-rows{display:grid;gap:16px}
+.route-row{display:grid;grid-template-columns:1fr 1.1fr;gap:0;background:var(--navy-3);border:1px solid var(--line-dark);border-radius:20px;overflow:hidden}
+.route-txt{padding:32px 34px}
+.route-txt .r-step{display:inline-flex;gap:8px;align-items:center;font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#7db1ff;margin-bottom:12px}
+.route-txt h3{color:#fff;font-size:1.45rem;margin-bottom:10px}
+.route-txt p{color:var(--muted-light);margin:0}
+.route-viz{padding:26px;background:#0a111f;border-left:1px solid var(--line-dark);display:flex;flex-direction:column;justify-content:center}
+.route-viz .mini-table{margin-top:0}
+.route-viz .viz-cap{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#5f7396;font-weight:700;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+@media(max-width:860px){.route-row{grid-template-columns:1fr}.route-viz{border-left:0;border-top:1px solid var(--line-dark)}}
+.feat6{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.feat6 .f6{background:#0b1220;border-radius:18px;padding:28px 26px;color:#e8eef8}
+.feat6 .f6 .t-ic{width:44px;height:44px;border-radius:11px;background:rgba(37,99,235,.22);color:#7db1ff;display:grid;place-items:center;margin-bottom:15px}
+.feat6 .f6 b{display:block;color:#fff;font-size:1.05rem;margin-bottom:7px}
+.feat6 .f6 p{margin:0;color:#9db1d1;font-size:.92rem;line-height:1.6}
+@media(max-width:900px){.feat6{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.feat6{grid-template-columns:1fr}}
+.trades{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.trade{background:#fff;border:1px solid #e2e8f2;border-radius:16px;padding:24px;display:flex;gap:16px;align-items:flex-start}
+.trade .tr-ic{flex:none;width:46px;height:46px;border-radius:12px;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center}
+.trade b{display:block;color:var(--ink);font-size:1.02rem;margin-bottom:4px}
+.trade p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.55}
+.trade .tr-tag{display:inline-block;margin-top:10px;font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:99px;background:var(--green-soft);color:var(--green-dark)}
+@media(max-width:900px){.trades{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.trades{grid-template-columns:1fr}}
+.cta-band{background:var(--blue);border-radius:22px;padding:42px 44px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;color:#fff}
+.cta-band h3{font-size:clamp(1.35rem,2.6vw,1.8rem);margin-bottom:8px}
+.cta-band p{margin:0;color:#cfdefc;max-width:36rem}
+.cta-band .btn-white{flex:none}
+@media(max-width:760px){.cta-band{grid-template-columns:1fr;padding:30px 26px}}
+
+/* ============ SETUP / LAPTOP ============ */
+.setup-banner{display:flex;gap:14px;align-items:center;justify-content:center;flex-wrap:wrap;background:#0b1220;color:#fff;border-radius:14px;padding:16px 20px;margin-top:22px;text-align:left}
+.setup-banner .sb-ic{flex:none;width:44px;height:44px;border-radius:11px;background:var(--green);color:#052e12;display:grid;place-items:center}
+.setup-banner b{color:#fff}
+.setup-banner span{color:#a7c9b4;font-size:.93rem}
+.setup-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:18px;align-items:stretch}
+.setup-card{border-radius:20px;padding:30px 30px 32px;border:1.5px solid #e2e8f2;background:#fff}
+.setup-card.preferred{border-color:var(--blue);box-shadow:0 20px 44px rgba(37,99,235,.16);position:relative;background:#f7faff}
+.setup-flag{position:absolute;top:-13px;right:22px;background:var(--green-dark);color:#fff;font-size:.72rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;padding:6px 13px;border-radius:99px}
+.setup-card h3{display:flex;gap:12px;align-items:center;color:var(--ink);font-size:1.22rem;margin-bottom:8px}
+.setup-card h3 .s-ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;flex:none}
+.setup-card.basic h3 .s-ic{background:#eef2fa;color:var(--muted)}
+.setup-card.preferred h3 .s-ic{background:var(--blue);color:#fff}
+.setup-card .s-sub{color:var(--muted);margin:0 0 18px}
+.setup-card ul{list-style:none;margin:0;padding:0;display:grid;gap:11px;font-size:.95rem;color:var(--ink-2)}
+.setup-card ul li{display:flex;gap:10px;align-items:flex-start}
+.setup-card ul svg{flex:none;margin-top:4px}
+.setup-card.basic ul svg{color:var(--muted)}
+.setup-card.preferred ul svg{color:var(--green-dark)}
+.setup-verdict{margin-top:20px;background:#0b1220;color:#e8eef8;border-radius:16px;padding:22px 26px;display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center}
+.setup-verdict .v-big{font-size:1.5rem;font-weight:900;color:var(--green);line-height:1.1;white-space:nowrap}
+.setup-verdict p{margin:0;color:#c6d5ee;font-size:.96rem}
+@media(max-width:820px){.setup-grid{grid-template-columns:1fr}.setup-verdict{grid-template-columns:1fr}.setup-verdict .v-big{white-space:normal}}
+/* trade cards clickable + trade detail */
+a.trade{text-decoration:none;transition:border-color .15s ease,box-shadow .15s ease;cursor:pointer}
+a.trade:hover{border-color:#9db2d4;box-shadow:0 12px 30px rgba(15,40,90,.10)}
+.trade .tr-go{display:inline-flex;gap:6px;align-items:center;margin-top:12px;font-weight:800;font-size:.86rem;color:var(--blue)}
+.jobs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.job-card{background:var(--navy-3);border:1px solid var(--line-dark);border-radius:14px;padding:20px}
+.job-card b{display:block;color:#fff;font-size:.99rem;margin-bottom:5px}
+.job-card p{margin:0;color:var(--muted-light);font-size:.88rem;line-height:1.55}
+@media(max-width:900px){.jobs-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.jobs-grid{grid-template-columns:1fr}}
+.trade-nav-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:8px}
+.trade-nav-row a{display:inline-flex;align-items:center;min-height:40px;padding:7px 15px;border-radius:99px;border:1.5px solid var(--line-dark-2);color:#dbe6f7;text-decoration:none;font-weight:700;font-size:.88rem}
+.trade-nav-row a:hover,.trade-nav-row a.on{background:#fff;color:var(--ink);border-color:#fff}
+.back-link{display:inline-flex;gap:8px;align-items:center;color:var(--blue);font-weight:700;text-decoration:none;font-size:.95rem;margin-bottom:18px}
+/* ============ FINAL CTA + FOOTER ============ */
+.final-cta{text-align:center}
+.final-cta h2{color:#fff;font-size:clamp(2rem,4.4vw,3.1rem);max-width:44rem;margin:0 auto}
+.final-cta p{color:var(--muted-light);max-width:38rem;margin:18px auto 0;font-size:1.08rem}
+footer.site{border-top:1px solid var(--line-dark);padding:58px 0 40px;color:var(--muted-light)}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;gap:30px}
+.foot-grid h5{color:#fff;font-size:.86rem;letter-spacing:.06em;text-transform:uppercase;margin:0 0 14px}
+.foot-grid ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.foot-grid a{color:var(--muted-light);text-decoration:none;font-size:.92rem}
+.foot-grid a:hover{color:#fff}
+.foot-brand b{color:#fff;font-size:1.05rem;display:flex;gap:10px;align-items:center}
+.foot-brand p{font-size:.9rem;margin:14px 0 0;max-width:21rem}
+.foot-bottom{border-top:1px solid var(--line-dark);margin-top:44px;padding-top:24px;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;font-size:.86rem}
+@media(max-width:900px){.foot-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.foot-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+<script>window.__RC__={url:"__SUPABASE_URL__",key:"__SUPABASE_ANON_KEY__"};</script>
+<script>/* route initial view: __RC_INITIAL_VIEW__ */(function(){try{var v="__RC_VIEW__";var t="__RC_TRADE__";if(v==="home-services"&&!location.hash)location.hash="home-services";if(v==="trade"&&!location.hash)location.hash="trade-"+t;}catch(e){}})();</script>
+<style id="rc-mobile">
+/* Rich Calls mobile safety (Saad's release gate): no cropping, no oversized
+   icons, no horizontal scroll on Android (~360px) or iOS (~390px). */
+html,body{overflow-x:hidden;max-width:100%}
+img,svg,video{max-width:100%}
+h1,h2,h3,h4,p,li,a,span,b,td,th{overflow-wrap:break-word}
+input,select,textarea{font-size:16px!important}
+@media(max-width:640px){
+  .sheet{margin:10px 8px;padding:52px 0 60px;border-radius:24px}
+  .wrap,.wrap-narrow{padding-inline:16px}
+  .hero h1{font-size:clamp(1.85rem,8.6vw,2.4rem);line-height:1.12}
+  .sec-head h2{font-size:clamp(1.55rem,6.4vw,1.9rem);line-height:1.16}
+  .hero .lede{font-size:1.02rem}
+  .demo-frame{border-radius:14px}
+  .demo-tabs button{min-height:44px}
+  .mini-table{font-size:.78rem}
+  .mini-table th,.mini-table td{padding:7px 8px}
+  .route-viz,.demo-frame{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .btn{white-space:normal;text-align:center;min-height:50px}
+  .hero-ctas .btn{width:100%}
+  .brand{font-size:.95rem}
+  .check-row{gap:6px 14px;font-size:.85rem}
+  .referral .big{font-size:1.55rem!important}
+  .t-ic{width:40px!important;height:40px!important}
+  .nav-panel{min-width:min(290px,calc(100vw - 32px))}
+  table.mini-table{display:table;width:100%}
+}
+@media(max-width:480px){
+  .foot-grid{grid-template-columns:1fr!important}
+  .kpi-row{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap site-inner">
+    <a class="brand" href="#top" data-goto="home" aria-label="Rich Calls — home">
+      <span class="mark" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+      <span>Rich Calls<small>Pay per call · UK &amp; USA</small></span>
+    </a>
+    <nav class="main" aria-label="Main">
+      <a href="#top" data-goto="home" class="nav-home active">Home</a>
+      <div class="nav-drop">
+        <button type="button" aria-haspopup="true" aria-expanded="false">Campaigns <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg></button>
+        <div class="nav-panel">
+          <a href="#hs-top" data-goto="home-services"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7Z"/></svg></span><span><b>Home Services — PRIMARY campaign</b><span>Our #1 campaign. All nine trades — now onboarding partners.</span></span></a>
+          <a href="#sell" data-goto="home" data-anchor="sell"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z"/><path d="M5 11V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v5"/></svg></span><span><b>Furniture — beds &amp; sofas (secondary)</b><span>Our secondary campaign. Still live — Marketplace ads, buyer chats, paid calls.</span></span></a>
+          <a href="#trade-plumbing" data-goto="trade" data-trade="plumbing"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.7 8.1a7.5 7.5 0 1 0 10.6 0L12 2.7Z"/></svg></span><span><b>Plumbing campaign</b><span>Leaks, blockages &amp; water heaters — emergency calls.</span></span></a>
+          <a href="#trade-electrical" data-goto="trade" data-trade="electrical"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></span><span><b>Electrician campaign</b><span>Faults, panels &amp; lighting — licensed work only.</span></span></a>
+          <a href="#trade-hvac" data-goto="trade" data-trade="hvac"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3 2.5.5 5 2.5 5 6a5 5 0 0 1-10 0c0-1.5.5-3 1.5-4 .5 1 1 2 2 3.5Z"/></svg></span><span><b>HVAC campaign</b><span>AC repair &amp; furnace faults — urgent summer demand.</span></span></a>
+          <a href="#trade-roofing" data-goto="trade" data-trade="roofing"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m2 11 10-7 10 7"/><path d="M5 10v10h14V10"/></svg></span><span><b>Roofing campaign</b><span>Storm damage, leaks &amp; replacements.</span></span></a>
+          <a href="#tiers" data-goto="home" data-anchor="tiers"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg></span><span><b>All campaigns &amp; tiers</b><span>See every campaign and the rate ladder partners climb.</span></span></a>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <button type="button" aria-haspopup="true" aria-expanded="false">For Partners <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg></button>
+        <div class="nav-panel">
+          <a href="#how" data-goto="home" data-anchor="how"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span><span><b>How it works</b><span>Apply, train, get your dashboard, publish and earn.</span></span></a>
+          <a href="#tiers" data-goto="home" data-anchor="tiers"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-2 7 5.5-3 5.5 3-2-7"/></svg></span><span><b>Pay &amp; tiers</b><span>Bronze to Gold — rates, quality and weekly payouts.</span></span></a>
+          <a href="#setup" data-goto="home" data-anchor="setup"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M2 21h20"/></svg></span><span><b>Laptop / PC preferred</b><span>Why serious earners work on a big screen — and earn a handsome amount.</span></span></a>
+          <a href="#who" data-goto="home" data-anchor="who"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span><b>Who can apply</b><span>What you need: a laptop / PC, English, and consistency.</span></span></a>
+          <a href="#faq" data-goto="home" data-anchor="faq"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg></span><span><b>FAQ</b><span>Fees, payouts, qualified calls and account rules.</span></span></a>
+        </div>
+      </div>
+      <div class="nav-drop">
+        <button type="button" aria-haspopup="true" aria-expanded="false">Countries <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg></button>
+        <div class="nav-panel">
+          <a href="#who" data-goto="home" data-anchor="who"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"/></svg></span><span><b>India &amp; Bangladesh</b><span>Now onboarding — support in Hindi, Bengali and Urdu.</span></span></a>
+          <a href="#who" data-goto="home" data-anchor="who"><span class="np-ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"/></svg></span><span><b>Pakistan, Nepal &amp; Philippines</b><span>Also open — same training, same dashboard, same payouts.</span></span></a>
+        </div>
+      </div>
+      <a href="#apply" data-goto="home" data-anchor="apply">Apply</a>
+    </nav>
+    <div class="head-ctas">
+      <a class="btn btn-white btn-sm" href="#faq" data-goto="home" data-anchor="faq">Talk to the team</a>
+      <a class="btn btn-blue btn-sm" href="#apply" data-goto="home" data-anchor="apply">Apply now</a>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+  <div class="wrap mobile-nav" id="mobileNav">
+    <a href="#top" data-goto="home">Home</a>
+    <a href="#setup" data-goto="home" data-anchor="setup">Laptop / PC — earn more</a>
+    <a href="#hs-top" data-goto="home-services">Home Services — PRIMARY campaign</a>
+    <a href="#trade-plumbing" data-goto="trade" data-trade="plumbing">Plumbing campaign</a>
+    <a href="#trade-electrical" data-goto="trade" data-trade="electrical">Electrician campaign</a>
+    <a href="#trade-hvac" data-goto="trade" data-trade="hvac">HVAC campaign</a>
+    <a href="#trade-roofing" data-goto="trade" data-trade="roofing">Roofing campaign</a>
+    <a href="#trade-windows" data-goto="trade" data-trade="windows">Windows campaign</a>
+    <a href="#trade-solar" data-goto="trade" data-trade="solar">Solar campaign</a>
+    <a href="#how" data-goto="home" data-anchor="how">How it works</a>
+    <a href="#tiers" data-goto="home" data-anchor="tiers">Pay &amp; tiers</a>
+    <a href="#faq" data-goto="home" data-anchor="faq">FAQ</a>
+    <a href="#apply" data-goto="home" data-anchor="apply">Apply now</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- ==================================================== -->
+<!-- ==================== HOME VIEW ===================== -->
+<!-- ==================================================== -->
+<div class="view active" id="view-home">
+
+  <!-- HERO -->
+  <div class="sheet grid-bg">
+    <div class="wrap-narrow hero">
+      <span class="pill"><span class="dot"></span>Primary campaign: Home Services · Built for partners in India, Bangladesh &amp; beyond</span>
+      <h1>Sell Home Services, <span class="u">Get Paid</span> for Every Real Call</h1>
+      <p class="lede"><strong>Home Services is our #1 campaign — it comes first, ahead of furniture.</strong> Our operating partner holds the contracts with UK &amp; US home services companies — Plumbing, Electrician, HVAC, Roofing and five more trades, with Ringba tracking already running. Your job is the selling: publish the ads, chat with homeowners on Facebook Marketplace, and connect them by phone. <strong>Every qualified call is tracked on your own dashboard — and paid out weekly.</strong> Furniture (beds &amp; sofas) is our secondary campaign: still live, and partners can add it — but trades are where we put partners first.</p>
+      <div><span class="sticky-note">Your call flow will run smoother</span></div>
+      <div class="hero-ctas">
+        <a class="btn btn-blue btn-lg" href="#apply" data-anchor="apply">Apply to become a partner <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-dark btn-lg" href="#how" data-anchor="how">See how it works</a>
+      </div>
+      <div class="check-row">
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No joining fee</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No investment</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Free training</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>5-minute application</span>
+      </div>
+      <div class="setup-banner" role="note">
+        <span class="sb-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M2 21h20"/></svg></span>
+        <div><b>Laptop / PC is preferred — to earn a handsome amount.</b> <span>Phone-only partners can start, but laptop partners reply faster, handle many chats at once and take the busiest campaigns. Serious income needs a serious setup. <a href="#setup" data-anchor="setup" style="color:#4ade80;font-weight:800">See why →</a></span></div>
+      </div>
+
+      <!-- Dashboard demo -->
+      <div class="demo" aria-label="Sample partner dashboard">
+        <div class="demo-tabs" role="tablist" aria-label="Dashboard views">
+          <button type="button" class="active" data-demo="calls" role="tab"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Calls</button>
+          <button type="button" data-demo="campaigns" role="tab"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3Z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>Campaigns</button>
+          <button type="button" data-demo="payouts" role="tab"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg>Payouts</button>
+          <button type="button" data-demo="quality" role="tab"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg>Quality</button>
+        </div>
+        <div class="demo-frame">
+          <div class="demo-bar">
+            <span class="tdot" style="background:#f87171"></span><span class="tdot" style="background:#fbbf24"></span><span class="tdot" style="background:#4ade80"></span>
+            <span class="demo-title">Partner dashboard — Ringba tracking</span>
+            <span class="sample-tag" style="margin-left:auto">Sample data</span>
+          </div>
+          <div class="demo-body">
+            <aside class="demo-side" aria-hidden="true">
+              <a href="#" class="on" tabindex="-1"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Calls</a>
+              <a href="#" tabindex="-1"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3Z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>Campaigns</a>
+              <a href="#" tabindex="-1"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/></svg>Payouts</a>
+              <div class="side-label">Partner</div>
+              <a href="#" tabindex="-1"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-2 7 5.5-3 5.5 3-2-7"/></svg>My tier</a>
+              <a href="#" tabindex="-1"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/><path d="m9 11.5 2 2 4-4.5"/></svg>Quality score</a>
+              <div class="side-label">Support</div>
+              <a href="#" tabindex="-1"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg>Team chat</a>
+            </aside>
+            <div class="demo-main">
+              <div class="demo-panel active" data-panel="calls">
+                <div class="kpi-row">
+                  <div class="kpi"><span>Calls today</span><b>23</b><em>Sample</em></div>
+                  <div class="kpi"><span>Qualified</span><b>14</b><em>60.9% of calls</em></div>
+                  <div class="kpi"><span>Avg. duration</span><b>3m 12s</b><em>Above threshold</em></div>
+                  <div class="kpi"><span>Tier track</span><b>Gold</b><em>On pace</em></div>
+                </div>
+                <table class="mini-table">
+                  <thead><tr><th>Time</th><th>Campaign</th><th>Duration</th><th>Status</th></tr></thead>
+                  <tbody>
+                    <tr><td>21:42</td><td>Plumbing — Houston</td><td>4m 05s</td><td><span class="status q">Qualified</span></td></tr>
+                    <tr><td>21:17</td><td>HVAC — Dallas</td><td>3m 48s</td><td><span class="status q">Qualified</span></td></tr>
+                    <tr><td>20:53</td><td>Roofing — Phoenix</td><td>0m 41s</td><td><span class="status p">Too short</span></td></tr>
+                    <tr><td>20:31</td><td>Sofas — London (secondary)</td><td>5m 19s</td><td><span class="status q">Qualified</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="demo-panel" data-panel="campaigns">
+                <div class="kpi-row">
+                  <div class="kpi"><span>Live campaigns</span><b>10</b><em>Assigned to you</em></div>
+                  <div class="kpi"><span>Cities</span><b>9</b><em>UK + USA</em></div>
+                  <div class="kpi"><span>Trades (primary)</span><b>9</b><em>Home Services</em></div>
+                  <div class="kpi"><span>Secondary</span><b>1</b><em>Furniture</em></div>
+                </div>
+                <table class="mini-table">
+                  <thead><tr><th>Campaign</th><th>Market</th><th>Your numbers</th><th>Status</th></tr></thead>
+                  <tbody>
+                    <tr><td>Home Services — Plumbing</td><td>USA</td><td>2 numbers</td><td><span class="status q">Primary · Live</span></td></tr>
+                    <tr><td>Home Services — HVAC</td><td>USA</td><td>1 number</td><td><span class="status q">Primary · Live</span></td></tr>
+                    <tr><td>Home Services — Electrician</td><td>United Kingdom</td><td>1 number</td><td><span class="status q">Primary · Live</span></td></tr>
+                    <tr><td>Furniture — beds &amp; sofas</td><td>UK + USA</td><td>1 number</td><td><span class="status q">Secondary · Live</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="demo-panel" data-panel="payouts">
+                <div class="kpi-row">
+                  <div class="kpi"><span>This week</span><b>86 calls</b><em>Qualified</em></div>
+                  <div class="kpi"><span>Referral bonus</span><b>Pending</b><em>At 50 calls</em></div>
+                  <div class="kpi"><span>Payout day</span><b>Weekly</b><em>Payoneer / Wise</em></div>
+                  <div class="kpi"><span>Rate</span><b>Your tier</b><em>Agreed in writing</em></div>
+                </div>
+                <table class="mini-table">
+                  <thead><tr><th>Week</th><th>Qualified calls</th><th>Tier</th><th>Status</th></tr></thead>
+                  <tbody>
+                    <tr><td>This week</td><td>86</td><td>Silver</td><td><span class="status p">Accruing</span></td></tr>
+                    <tr><td>Last week</td><td>74</td><td>Silver</td><td><span class="status q">Paid</span></td></tr>
+                    <tr><td>Week before</td><td>61</td><td>Bronze</td><td><span class="status q">Paid</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="demo-panel" data-panel="quality">
+                <div class="bar-row"><span>Call quality</span><div class="bar-track"><div class="bar-fill g" style="width:92%"></div></div><span>92</span></div>
+                <div class="bar-row"><span>Reply speed</span><div class="bar-track"><div class="bar-fill" style="width:88%"></div></div><span>88</span></div>
+                <div class="bar-row"><span>Duration pass</span><div class="bar-track"><div class="bar-fill" style="width:76%"></div></div><span>76</span></div>
+                <div class="bar-row"><span>Duplicates</span><div class="bar-track"><div class="bar-fill" style="width:4%;background:#f87171"></div></div><span>Low</span></div>
+                <p style="color:#9db1d1;font-size:.88rem;margin:18px 0 0">Quality is sampled from real calls and chats. High scores unlock better cities and the next tier — fake or duplicate calls are removed and can close an account.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="demo-note"><span class="sample-tag">Sample view</span> This is an illustration of the Ringba dashboard every partner receives — your real numbers, campaigns and rate appear after certification.</p>
+      </div>
+
+      <div class="works">
+        <p>Your work runs on tools you already know</p>
+        <div class="works-row">
+          <span><i></i>Ringba — call tracking</span>
+          <span><i></i>Facebook Marketplace</span>
+          <span><i></i>Payoneer</span>
+          <span><i></i>Wise</span>
+          <span><i></i>Telegram partner groups</span>
+          <span><i></i>WhatsApp support</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WHO IT'S FOR -->
+  <section class="dark-sec" id="who-for">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">Who it's for</p>
+        <h2>For Anyone Who Sells, Leads a Team, or Runs a Network</h2>
+        <p>One system, three ways in. Partners sell, team leaders coach a small group, and agencies plug a whole network into live campaigns.</p>
+      </div>
+      <div class="who-tabs" role="tablist" aria-label="Partner types">
+        <button type="button" class="active" data-who="partner" role="tab">Partner</button>
+        <button type="button" data-who="leader" role="tab">Team Leader</button>
+        <button type="button" data-who="agency" role="tab">Agency / Network</button>
+      </div>
+      <div class="who-panel active" data-who-panel="partner">
+        <div class="who-grid">
+          <div class="who-col">
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z"/><path d="M5 11V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v5"/></svg></span><div><b>You publish the ads</b><span>Marketplace listings for Home Services trades — plumbing, HVAC, roofing and more — using our templates and photos. Furniture listings are the secondary option.</span></div></div>
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg></span><div><b>You chat with buyers</b><span>Fast, polite replies with the scripts and price answers from training.</span></div></div>
+          </div>
+          <div class="who-center">
+            <span class="mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <b>Rich Calls</b><span>Your calls, tracked &amp; paid</span>
+          </div>
+          <div class="who-col">
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg></span><div><b>UK &amp; US companies pay</b><span>Contracts are held by our operating partner — Home Services first, furniture second, all campaigns live.</span></div></div>
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg></span><div><b>You get paid weekly</b><span>Per qualified call, via Payoneer or Wise, at your tier's rate.</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="who-panel" data-who-panel="leader">
+        <div class="who-grid">
+          <div class="who-col">
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><div><b>You bring 5–15 partners</b><span>Friends, classmates, your local freelancer circle — people you can coach.</span></div></div>
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/><path d="m9 11.5 2 2 4-4.5"/></svg></span><div><b>You keep quality high</b><span>Review your team's chats, share what works, flag problems early.</span></div></div>
+          </div>
+          <div class="who-center">
+            <span class="mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+            <b>Team Leader</b><span>Your team, one leaderboard</span>
+          </div>
+          <div class="who-col">
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg></span><div><b>Team view on the dashboard</b><span>See every team member's calls, quality and tier progress in one place.</span></div></div>
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg></span><div><b>Team bonuses</b><span>Referral bonuses when your partners pass their first 50 qualified calls.</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="who-panel" data-who-panel="agency">
+        <div class="who-grid">
+          <div class="who-col">
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/></svg></span><div><b>You run the network</b><span>An existing team or agency that can recruit and manage sellers at scale.</span></div></div>
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10M18 20V4M6 20v-4"/></svg></span><div><b>You need real attribution</b><span>Every partner on their own campaign and numbers — no shared spreadsheets.</span></div></div>
+          </div>
+          <div class="who-center">
+            <span class="mark"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/></svg></span>
+            <b>Agency / Network</b><span>Campaigns for your whole team</span>
+          </div>
+          <div class="who-col">
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3Z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><div><b>Dedicated campaigns</b><span>Your network gets its own campaigns, cities and tracking setup.</span></div></div>
+            <div class="who-chip"><span class="wc-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg></span><div><b>One weekly settlement</b><span>A single payout ledger for the network, broken down per partner.</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SETUP: LAPTOP / PC PREFERRED -->
+  <section class="sheet white" id="setup">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Your setup</p>
+        <h2>Laptop / PC Is Preferred — That Is How Partners Earn a Handsome Amount</h2>
+        <p>This work is won on speed and volume: many buyer chats open at once, ads to refresh, prices to check, and your dashboard live beside it all. A phone squeezes that into one small screen. A laptop / PC turns it into a proper desk — and proper desks produce the big weekly numbers.</p>
+      </div>
+      <div class="setup-grid">
+        <div class="setup-card basic">
+          <h3><span class="s-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M12 18h.01"/></svg></span>Smartphone only</h3>
+          <p class="s-sub">You can apply and start training — but your ceiling stays low.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>One chat at a time — buyers wait, then leave</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Switching between Marketplace, scripts and dashboard is slow</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Posting and refreshing many ads takes far longer</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Best for: learning the work and your first calls</li>
+          </ul>
+        </div>
+        <div class="setup-card preferred">
+          <span class="setup-flag">Preferred setup</span>
+          <h3><span class="s-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M2 21h20"/></svg></span>Laptop / PC — recommended</h3>
+          <p class="s-sub">The setup our busiest campaigns and highest tiers are built for.</p>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><b>Many chats side by side</b> — reply in seconds while other buyers are still typing</span></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><b>Dashboard + Marketplace together</b> — calls, scripts and price sheets open on one screen</span></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><b>More ads, managed faster</b> — publish, refresh and track listings across cities without the thumb-work</span></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><b>First pick of busy campaigns</b> — when a campaign needs volume and speed, laptop partners are assigned first</span></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span><b>Built for long focused sessions</b> — real keyboard, stable connection, no battery anxiety in peak hours</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="setup-verdict">
+        <span class="v-big">Want a handsome<br />amount? Work on<br />a laptop / PC.</span>
+        <p>We never block a phone-only applicant — but we say it plainly in training, in campaign assignment and here: <b style="color:#fff">the partners who earn the most work on a laptop or PC.</b> If you are serious about this income, arrange a laptop before you apply — even a basic second-hand one is enough. It is the single easiest upgrade to your earnings.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="sheet white" id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">How it works</p>
+        <h2>The Engine Behind Every Qualified Call</h2>
+        <p>Buyers come in from your ads. The system checks every call, credits it to you, and totals it into your weekly payout. No manual counting, no disputes.</p>
+      </div>
+      <div class="flow">
+        <div class="flow-col">
+          <h4>Sources</h4><p>Where buyers find you</p>
+          <div class="flow-card"><span class="fc-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z"/><path d="M5 11V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v5"/></svg></span><div><b>Marketplace ads</b><span>Home Services trade listings first — furniture second</span></div></div>
+          <div class="flow-card"><span class="fc-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg></span><div><b>Homeowner chats</b><span>The job, the area, the urgency — qualified in chat</span></div></div>
+          <div class="flow-card"><span class="fc-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><div><b>Buyer calls</b><span>On your own tracking number</span></div></div>
+        </div>
+        <div class="flow-col">
+          <h4>The partner engine</h4><p>Automatic, in real time</p>
+          <div class="flow-engine">
+            <div class="flow-step"><span class="fs-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3H2l8 9.5V19l4 2v-8.5L22 3Z"/></svg></span><div><b>1 · Capture</b><span>Apply, get screened, train and certify — nobody touches a live ad before this.</span></div></div>
+            <div class="flow-step"><span class="fs-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/><path d="m9 11.5 2 2 4-4.5"/></svg></span><div><b>2 · Score</b><span>Every call is checked: real buyer, real product, past the duration threshold, no duplicates.</span></div></div>
+            <div class="flow-step"><span class="fs-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg></span><div><b>3 · Route</b><span>Qualified calls go to the company's sales team in the buyer's own city.</span></div></div>
+            <div class="flow-step"><span class="fs-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg></span><div><b>4 · Payout</b><span>Your qualified calls are totalled weekly and paid via Payoneer or Wise.</span></div></div>
+          </div>
+        </div>
+        <div class="flow-col">
+          <h4>Buyers</h4><p>Who pays for the calls</p>
+          <div class="flow-card"><span class="fc-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/></svg></span><div><b>Home Services contractors — primary</b><span>UK &amp; US trade companies, contracted by our operating partner</span></div></div>
+          <div class="flow-card"><span class="fc-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/></svg></span><div><b>Trade companies in 9 trades</b><span>Plumbing, Electrician, HVAC, Roofing &amp; more</span></div></div>
+          <div class="flow-card"><span class="fc-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z"/><path d="M5 11V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v5"/></svg></span><div><b>Furniture companies — secondary</b><span>Beds &amp; sofas, contracted by our operating partner</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES -->
+  <section class="dark-sec" id="system" style="padding-top:20px">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">The partner system</p>
+        <h2>Everything Around the Call Is Handled</h2>
+        <p>You focus on ads and chats. The system handles tracking, scoring, quality and payouts — the parts that make companies renew contracts.</p>
+      </div>
+      <div class="tiles">
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><b>Your own tracking number</b><p>Every partner gets personal Ringba numbers, so every call you generate is credited to you alone.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg></span><b>Live call dashboard</b><p>Calls, durations and statuses in real time. What you see is exactly what you get paid for.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/><path d="m9 11.5 2 2 4-4.5"/></svg></span><b>Call quality scoring</b><p>Calls are sampled and scored. Clean, converting calls protect the contracts — and everyone's rates.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg></span><b>Duplicate checks</b><p>Repeat and self-made calls are detected and removed before they ever reach a payout sheet.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span><b>Duration thresholds</b><p>Each campaign's minimum call length is told to you in training — before you publish a single ad.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4a2 2 0 0 0-2-2H6.5A2.5 2.5 0 0 0 4 4.5v15Z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg></span><b>Ad templates &amp; scripts</b><p>Proven Marketplace listings, chat scripts, price sheets and objection answers — ready to use.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-3.5"/></svg></span><b>Free training &amp; certification</b><p>A short course and quiz before you go live. It protects the campaigns — and your income.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-2 7 5.5-3 5.5 3-2-7"/></svg></span><b>Tier ladder</b><p>Bronze, Silver, Gold. Better quality unlocks better cities, stronger campaigns, higher rates.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg></span><b>Weekly payout ledger</b><p>Qualified calls totalled every week, paid via Payoneer or Wise. Your rate is agreed in writing first.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg></span><b>Referral bonuses</b><p>Bring a partner; when they complete their first 50 qualified calls, a bonus lands in your payout.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z"/></svg></span><b>Support in your language</b><p>English, Hindi, Bengali and Urdu — training, scripts and day-to-day help from the partner team.</p></div>
+        <div class="tile"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18 15 15 0 0 1 0-18Z"/></svg></span><b>City-based campaigns</b><p>Campaigns are assigned by city, so buyers always reach a company that delivers where they live.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU SELL -->
+  <section class="sheet white" id="sell">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Our campaigns — in priority order</p>
+        <h2>Home Services First. Furniture Second.</h2>
+        <p><strong>Home Services is the campaign we prefer and push first</strong> — nine trades, urgent homeowner demand, and the strongest calls on the program. Furniture (beds &amp; sofas) is secondary: still live and still paid, but it is the add-on, not the headline. You never buy stock, hold inventory or deliver anything — the companies handle the work, you bring them customers.</p>
+      </div>
+      <div class="cta-band" style="margin-bottom:22px">
+        <div><h3>Primary campaign: Home Services — 9 trades</h3><p>Plumbing · Electrician · HVAC · Roofing · Windows · Solar · Siding · Landscaping · Pest Control. Routed by trade and area, paid per qualified call, on the same dashboard. This is where new partners start.</p></div>
+        <a class="btn btn-white btn-lg" href="#hs-top" data-goto="home-services">Explore Home Services first</a>
+      </div>
+      <h3 style="font-size:1.15rem;color:var(--muted);margin:0 0 14px">Secondary campaign — Furniture (beds &amp; sofas)</h3>
+      <div class="products">
+        <article class="product">
+          <img src="/assets/sofa.jpg" alt="A modern fabric three-seater sofa in a bright living room" width="1920" height="1080" loading="lazy" />
+          <div class="p-body"><h3>Sofas &amp; living room</h3><p>Sofas, sectionals, sofa beds and living-room sets — the highest-demand category with UK and US buyers, and the one most campaigns start with.</p></div>
+        </article>
+        <article class="product">
+          <img src="/assets/bed.jpg" alt="An upholstered bed with a padded headboard in a styled bedroom" width="1080" height="1080" loading="lazy" />
+          <div class="p-body"><h3>Beds &amp; bedrooms</h3><p>Upholstered beds, frames, mattresses and bedroom furniture. Big-ticket items that buyers prefer to ask about on a real phone call.</p></div>
+        </article>
+      </div>
+      <div class="market-strip">
+        <div><h3>Your evening is their shopping time</h3><p>Buyers are in the United Kingdom and the United States. From South Asia, their busiest browsing hours fall in your evening and night — which is why partners here fit this work around a job or studies.</p></div>
+        <ul class="market-facts">
+          <li>Markets <span>United Kingdom · USA</span></li>
+          <li>Channel <span>Facebook Marketplace</span></li>
+          <li>Primary <span>Home Services — 9 trades</span></li>
+          <li>Secondary <span>Beds · Sofas · Home furniture</span></li>
+          <li>More trades &amp; areas <span>Assigned as you climb tiers</span></li>
+        </ul>
+      </div>
+      <div class="cta-band" style="margin-top:18px">
+        <div><h3>Start where the priority is: Home Services</h3><p>Plumbing, HVAC, roofing and six more trades come before furniture here — apply for a trade first, and add furniture later only if you want it.</p></div>
+        <a class="btn btn-white btn-lg" href="#apply" data-anchor="apply">Apply — Home Services first</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIERS -->
+  <section class="dark-sec" id="tiers">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">Pay &amp; tiers</p>
+        <h2>Paid Per Qualified Call — Counted by Software, Not Promises</h2>
+        <p>Not per hour, and not only when a sale closes. If a real buyer calls and talks, you earn. Your exact per-call rate is set by your tier and campaign, and agreed with you in writing before you start.</p>
+      </div>
+      <div class="tier-shell">
+        <div class="tier-grid">
+          <div class="tier-card">
+            <div class="t-name"><span class="medal b">B</span>Bronze</div>
+            <div class="t-rate">Base rate<small> / qualified call</small></div>
+            <p class="t-desc">Where every certified partner starts.</p>
+            <ul>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Live campaigns in standard cities</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Your own Ringba dashboard &amp; numbers</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Ad templates, scripts &amp; price sheets</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Weekly payouts via Payoneer / Wise</li>
+            </ul>
+            <a class="btn btn-outline" href="#apply" data-anchor="apply">Start at Bronze</a>
+          </div>
+          <div class="tier-card featured">
+            <span class="tier-flag">Where partners aim</span>
+            <div class="t-name"><span class="medal s">S</span>Silver</div>
+            <div class="t-rate">Higher rate<small> / qualified call</small></div>
+            <p class="t-desc">Unlocked by call quality and fast replies.</p>
+            <ul>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Everything in Bronze</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>More cities &amp; stronger campaigns</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Higher per-call rate</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>First access to new Home Services trade areas</li>
+            </ul>
+            <a class="btn btn-blue" href="#apply" data-anchor="apply">Apply &amp; climb</a>
+          </div>
+          <div class="tier-card">
+            <div class="t-name"><span class="medal g">G</span>Gold</div>
+            <div class="t-rate">Top rate<small> / qualified call</small></div>
+            <p class="t-desc">The best cities, campaigns and support.</p>
+            <ul>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Everything in Silver</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Best cities &amp; premium campaigns</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Top per-call rate</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Priority support &amp; new-market access</li>
+            </ul>
+            <a class="btn btn-outline" href="#apply" data-anchor="apply">Apply &amp; climb</a>
+          </div>
+          <div class="tier-card">
+            <div class="t-name"><span class="medal n">N</span>Network</div>
+            <div class="t-rate">Team terms<small> / network</small></div>
+            <p class="t-desc">For team leaders and agencies bringing a group.</p>
+            <ul>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Dedicated campaigns for your network</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Team leaderboard &amp; per-partner ledger</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Referral bonuses across your team</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Terms agreed with the network lead</li>
+            </ul>
+            <a class="btn btn-outline" href="#apply" data-anchor="apply">Apply as a network</a>
+          </div>
+        </div>
+        <p class="tier-note">You climb on quality and consistency — never on fees. Nobody can buy a tier, and no rate is ever a surprise: it is confirmed with you before a campaign starts.</p>
+      </div>
+      <div class="referral" style="margin-top:22px">
+        <div><h3>Bring a partner. Earn a bonus.</h3><p>Know someone in India, Bangladesh or beyond who would be good at this? When a partner you referred completes their first 50 qualified calls, a referral bonus is added to your payout. The network grows itself — and the people who grow it get paid.</p></div>
+        <div class="big">50<small>Qualified calls by your referral = your bonus</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO CAN APPLY -->
+  <section class="sheet white" id="who">
+    <div class="wrap">
+      <div class="elig-grid">
+        <img src="/assets/seller.jpg" alt="A partner working from home with a laptop, notebook and phone" width="740" height="494" loading="lazy" />
+        <div>
+          <div class="sec-head left" style="margin-bottom:26px">
+            <p class="eyebrow">Who can apply</p>
+            <h2>You Need a Laptop / PC, English, and Consistency</h2>
+          </div>
+          <ul class="checklist">
+            <li><span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>18 or older, working from home</b><span>Based in India, Bangladesh, Pakistan, Nepal or the Philippines.</span></div></li>
+            <li><span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>A laptop / PC — strongly preferred</b><span>This is the setup for earning a handsome amount: many chats at once, faster replies, dashboard beside your ads. A smartphone can start you off, but laptop / PC partners get first pick of the busy campaigns. Plus a Facebook account you can publish Marketplace ads from.</span></div></li>
+            <li><span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>Written English for buyer chats</b><span>Good enough to reply clearly and politely. The application tests exactly this.</span></div></li>
+            <li><span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>3 or more focused hours a day</b><span>Covering UK / US shopping hours, most days of the week.</span></div></li>
+            <li><span class="ck"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>A Payoneer or Wise account</b><span>So we can pay you weekly. No account yet? We help you set one up after approval.</span></div></li>
+          </ul>
+          <p class="support-note"><b>Support in your language:</b> the partner team supports you in English, Hindi, Bengali and Urdu — training, scripts and day-to-day help.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="dark-sec" id="faq" style="padding-top:16px">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">Questions</p>
+        <h2>Asked by Almost Every Applicant</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq"><summary>Is there any fee or investment?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>None. Joining, training, certification and your Ringba dashboard are free, and you never buy stock or ads from us. If anyone asks you for money to join this program, it is not us.</p></details>
+        <details class="faq"><summary>How and when do I get paid?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Your qualified calls are totalled weekly from your dashboard and paid via Payoneer or Wise. Your per-call rate depends on your tier and campaign and is agreed with you in writing before you start a campaign.</p></details>
+        <details class="faq"><summary>What exactly makes a call &ldquo;qualified&rdquo;?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>A genuine buyer, calling about a real product, who stays on the line past the campaign's minimum duration. Each campaign sets its own threshold — you will know yours before you publish anything, and your dashboard shows every call's status live.</p></details>
+        <details class="faq"><summary>Do I need a laptop or PC?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>A laptop / PC is strongly preferred — and it is the honest answer if you want to earn a handsome amount. On a big screen you keep many buyer chats, your scripts and your Ringba dashboard open together, reply in seconds and manage far more ads. You can start on a smartphone, but phone-only partners handle less volume and are not first in line for the busiest campaigns. A basic laptop is enough; you do not need an expensive one.</p></details>
+        <details class="faq"><summary>Do I need sales experience?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>No. Training gives you the ad templates, chat scripts and price answers, and most buyers simply want details and a price. What we screen for is clear written English, fast replies and honesty — the rest is teachable.</p></details>
+        <details class="faq"><summary>Can I do this alongside a job or studies?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Yes — many partners do. UK and US shopping hours fall in the South Asian evening and night. What matters is showing up consistently in those hours; partners who disappear mid-week lose their tier.</p></details>
+        <details class="faq"><summary>What gets an account closed?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Fake or self-made calls, misleading ads, sharing your dashboard login, or breaking the compliance rules you certified on. Companies audit call quality — one dishonest partner can cost every partner their campaign.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLY -->
+  <section class="dark-sec" id="apply" style="padding-top:8px">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">Partner application</p>
+        <h2 style="color:#fff">Apply in About Five Minutes</h2>
+        <p>The last question is a real buyer message. Answer it exactly as you would on Marketplace — it is the main thing we screen for. Submitting sends your application straight to our recruitment team, and you will get a reference code to keep.</p>
+      </div>
+      <div class="apply-shell">
+        <div class="form-error-summary" id="errorSummary" role="alert"></div>
+        <form id="applyForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="fName">Full name <span class="req" aria-hidden="true">*</span></label>
+              <input id="fName" name="name" type="text" autocomplete="name" placeholder="e.g. Rahul Sharma" required />
+              <p class="err" data-err-for="fName">Please enter your full name.</p>
+            </div>
+            <div class="field">
+              <label for="fCountry">Country <span class="req" aria-hidden="true">*</span></label>
+              <select id="fCountry" name="country" required>
+                <option value="">Select your country…</option>
+                <option>India</option><option>Bangladesh</option><option>Pakistan</option><option>Nepal</option><option>Philippines</option><option>Other</option>
+              </select>
+              <p class="err" data-err-for="fCountry">Please select your country.</p>
+            </div>
+            <div class="field">
+              <label for="fCity">City <span class="req" aria-hidden="true">*</span></label>
+              <input id="fCity" name="city" type="text" autocomplete="address-level2" placeholder="e.g. Dhaka" required />
+              <p class="err" data-err-for="fCity">Please enter your city.</p>
+            </div>
+            <div class="field">
+              <label for="fWhatsapp">WhatsApp number <span class="req" aria-hidden="true">*</span></label>
+              <input id="fWhatsapp" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" placeholder="+880 1XXX-XXXXXX" required />
+              <p class="hint">With country code. This is how the team contacts shortlisted applicants.</p>
+              <p class="err" data-err-for="fWhatsapp">Please enter a valid WhatsApp number with country code.</p>
+            </div>
+            <div class="field">
+              <label for="fEmail">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="fEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              <p class="err" data-err-for="fEmail">Please enter a valid email address.</p>
+            </div>
+            <div class="field">
+              <label for="fEnglish">Written English level <span class="req" aria-hidden="true">*</span></label>
+              <select id="fEnglish" name="english" required>
+                <option value="">Select…</option>
+                <option>Basic — I can chat with some help</option>
+                <option>Good — I chat comfortably</option>
+                <option>Fluent — near-native writing</option>
+              </select>
+              <p class="err" data-err-for="fEnglish">Please select your English level.</p>
+            </div>
+            <div class="field">
+              <label for="fDevice">Device you will work on <span class="req" aria-hidden="true">*</span></label>
+              <select id="fDevice" name="device" required>
+                <option value="">Select…</option>
+                <option>Laptop / PC (preferred — for a handsome amount)</option><option>Both laptop / PC and phone</option><option>Smartphone only</option>
+              </select>
+              <p class="hint">Laptop / PC is preferred: partners on a big screen handle more chats, reply faster and are assigned the busiest campaigns first.</p>
+              <p class="err" data-err-for="fDevice">Please select your device.</p>
+            </div>
+            <div class="field">
+              <label for="fHours">Hours you can work daily <span class="req" aria-hidden="true">*</span></label>
+              <select id="fHours" name="hours" required>
+                <option value="">Select…</option>
+                <option>3–4 hours</option><option>5–6 hours</option><option>6+ hours</option>
+              </select>
+              <p class="err" data-err-for="fHours">Please select your available hours.</p>
+            </div>
+            <div class="field">
+              <label for="fLanguages">Languages you speak <span class="req" aria-hidden="true">*</span></label>
+              <input id="fLanguages" name="languages" type="text" placeholder="e.g. English, Hindi, Urdu" required />
+              <p class="err" data-err-for="fLanguages">Please list the languages you speak.</p>
+            </div>
+            <div class="field">
+              <label for="fShift">Shift you can cover <span class="req" aria-hidden="true">*</span></label>
+              <select id="fShift" name="shift" required>
+                <option value="">Select…</option>
+                <option>UK hours</option><option>US hours</option><option>Both UK &amp; US hours</option><option>Flexible</option>
+              </select>
+              <p class="err" data-err-for="fShift">Please select the shift you can cover.</p>
+            </div>
+            <div class="field full">
+              <label for="fExperience">Facebook Marketplace experience <span class="req" aria-hidden="true">*</span></label>
+              <select id="fExperience" name="experience" required>
+                <option value="">Select…</option>
+                <option>I have sold on Facebook Marketplace before</option>
+                <option>I have used Marketplace as a buyer</option>
+                <option>I am new to Marketplace</option>
+              </select>
+              <p class="err" data-err-for="fExperience">Please select your Marketplace experience.</p>
+            </div>
+            <div class="field full">
+              <label for="fCampaign">Campaign you are applying for</label>
+              <select id="fCampaign" name="campaign">
+                <option>Home Services — Plumbing (primary)</option>
+                <option>Home Services — Electrician (primary)</option>
+                <option>Home Services — HVAC (primary)</option>
+                <option>Home Services — Roofing (primary)</option>
+                <option>Home Services — Windows (primary)</option>
+                <option>Home Services — Solar (primary)</option>
+                <option>Home Services — Siding (primary)</option>
+                <option>Home Services — Landscaping (primary)</option>
+                <option>Home Services — Pest Control (primary)</option>
+                <option>Home Services — any trade (primary campaign)</option>
+                <option>Furniture — beds &amp; sofas (secondary)</option>
+                <option>Either — assign me where I fit best</option>
+              </select>
+              <p class="hint">Home Services is our primary campaign — pick the trade you want and your training starts with it. Each trade has its own campaign page. Furniture (beds &amp; sofas) is the secondary campaign.</p>
+            </div>
+            <div class="field full">
+              <label for="fReply">Screening test — reply to this buyer <span class="req" aria-hidden="true">*</span></label>
+              <p class="scenario">A homeowner messages you about a plumbing ad: <b>&ldquo;Hi, my kitchen sink is leaking badly — can someone come today? What would it cost?&rdquo;</b></p>
+              <textarea id="fReply" name="reply" placeholder="Write your reply exactly as you would send it to the buyer…" required></textarea>
+              <p class="hint">Write at least a couple of proper sentences — this reply is the heart of your application.</p>
+              <p class="err" data-err-for="fReply">Please write a fuller reply (at least 6 words) — this is the main screening test.</p>
+            </div>
+            <div class="field full">
+              <label for="fReferral">Referral code or who referred you <span style="color:var(--muted); font-weight:500;">(optional)</span></label>
+              <input id="fReferral" name="referral" type="text" placeholder="e.g. partner name or referral code — leave blank if none" />
+            </div>
+            <div class="field full">
+              <label for="fAbout">Anything else we should know? <span style="color:var(--muted); font-weight:500;">(optional)</span></label>
+              <textarea id="fAbout" name="about" placeholder="Experience, languages, who referred you, your questions…" style="min-height:76px;"></textarea>
+            </div>
+          </div>
+          <div class="form-foot">
+            <button class="btn btn-blue" type="submit">Submit my application</button>
+            <p class="form-note">By applying you agree to the partner rules: no fake calls, no misleading ads, no sharing your dashboard. Breaking them closes the account.</p>
+          </div>
+        </form>
+
+        <div class="result" id="applyResult" tabindex="-1">
+          <div class="result-head">
+            <span class="ok"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <div>
+              <h3>Application received — thank you</h3>
+              <p>Reference: <span class="ref-code" id="refCode"></span> — keep it safe, you will quote it in training.</p>
+            </div>
+          </div>
+          <p style="color:var(--muted); margin:0;">Your application has been sent to our recruitment team. Keep your reference code safe — shortlisted applicants are contacted on WhatsApp for the next step. You can also copy or download a copy of your application below for your own records.</p>
+          <pre id="appText"></pre>
+          <div class="result-actions">
+            <button class="btn btn-blue" type="button" id="copyBtn">Copy application</button>
+            <button class="btn btn-outline" type="button" id="downloadBtn">Download as file</button>
+            <button class="btn btn-outline" type="button" id="againBtn">Fill another application</button>
+            <span class="copied-msg" id="copiedMsg" hidden>Copied.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div><!-- /view-home -->
+
+<!-- ==================================================== -->
+<!-- =============== HOME SERVICES VIEW ================= -->
+<!-- ==================================================== -->
+<div class="view" id="view-home-services">
+  <span id="hs-top"></span>
+
+  <!-- HS HERO -->
+  <div class="sheet grid-bg">
+    <div class="wrap-narrow hero">
+      <span class="pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7Z"/></svg>Our PRIMARY campaign — preferred over furniture</span>
+      <h1>Home Services Calls for Partners Who Can <span class="u">Sell</span> a Trade</h1>
+      <p class="lede">This is the campaign we prefer — <strong>Home Services comes first on this program, and furniture (beds &amp; sofas) is secondary.</strong> UK &amp; US homeowners who need an HVAC repair, a plumber, a roofer — right now. You publish the ads, chat with homeowners, and connect them by call. <strong>Calls are routed by trade and service area, scored for quality, and paid per qualified call</strong> — on your own dashboard and weekly payout.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-blue btn-lg" href="#apply" data-goto="home" data-anchor="apply">Apply for Home Services <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-dark btn-lg" href="#sell" data-goto="home" data-anchor="sell">Furniture — the secondary campaign</a>
+      </div>
+      <div class="check-row">
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>No joining fee</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Free trade training</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Weekly payouts</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Same Ringba dashboard</span>
+      </div>
+      <div class="check-row green" style="margin-top:12px">
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Trade-specific routing</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Service-area matching</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Rule-based call scoring</span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Pay-per-call for urgent jobs</span>
+      </div>
+      <div class="setup-banner" style="max-width:44rem;margin-left:auto;margin-right:auto">
+        <span class="sb-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M2 21h20"/></svg></span>
+        <div><b>Laptop / PC preferred on Home Services too.</b> <span>Urgent trade calls go to the partner who replies first — a laptop desk is how you win them and earn a handsome amount.</span></div>
+      </div>
+      <p style="margin:26px auto 0;max-width:40rem;color:var(--muted);font-size:.94rem"><b style="color:var(--ink-2)">Priority status:</b> Home Services is our preferred, primary campaign — partners are onboarded to trades <b>first</b>, before furniture. Apply for the trade you want, complete its training and certification, and sell it on the same dashboard. Furniture stays available as a secondary add-on for any partner who wants it.</p>
+    </div>
+  </div>
+
+  <!-- RIGHT FIT -->
+  <section class="dark-sec" id="hs-fit">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">Is this campaign right for you?</p>
+        <h2>Built for Sellers Who Can Talk About a Job</h2>
+        <p>Home services buyers are not browsing — their AC died, their pipe burst, their roof leaks. The partners who win here reply fast and ask the right questions.</p>
+      </div>
+      <div class="fit-grid">
+        <div class="fit-card yes">
+          <h3><span class="fi"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Right for you if you</h3>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Already sell on Marketplace, or ready to train and certify on a trade</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Can learn one trade properly — its jobs, its prices, its urgent questions</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Reply within minutes during US daytime and evening hours</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Ask qualifying questions: what broke, where, how urgent, homeowner or renter</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Want a higher-intent campaign where good calls are worth more</li>
+          </ul>
+        </div>
+        <div class="fit-card no">
+          <h3><span class="fi"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Not the right fit if you</h3>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>Want to buy leads or calls — this program never sells leads; partners generate them</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>Expect a fixed salary — pay is per qualified call, like every campaign here</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>Cannot cover US hours — an urgent plumbing call at your 3am cannot wait</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>Plan to invent prices or promises — contractors set the terms, never the partner</li>
+          </ul>
+        </div>
+      </div>
+      <p class="fit-note">Home Services is our primary partner campaign: our operating partner holds the contractor relationships, partners generate the calls, and every call is tracked before it is paid. Furniture runs on the same model — as the secondary campaign. We are not a lead shop and we do not sell leads.</p>
+    </div>
+  </section>
+
+  <!-- 4 FEATURES -->
+  <section class="sheet white" id="hs-features">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Built for how home services actually sells</p>
+        <h2>Four Things That Make a Trade Call Worth Money</h2>
+      </div>
+      <div class="feat4">
+        <div class="f4"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7Z"/></svg></span><b>Trade-specific routing</b><p>An HVAC call never lands at a plumber. Every number is bound to one trade and one buyer type.</p></div>
+        <div class="f4"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><b>Service-area matching</b><p>Calls are matched to the contractor's real service area — a call from outside it does not qualify.</p></div>
+        <div class="f4"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3H2l8 9.5V19l4 2v-8.5L22 3Z"/></svg></span><b>Rule-based quality filters</b><p>Duration, intent and job-type rules filter out tyre-kickers before a call is ever counted.</p></div>
+        <div class="f4"><span class="t-ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><b>Pay-per-call for urgent jobs</b><p>Emergency work is where contractors pay best for a live call — and where fast partners earn most.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROUTE ROWS -->
+  <section class="dark-sec" id="hs-route">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">How we route your calls</p>
+        <h2>From Homeowner Chat to Paid Call in Four Steps</h2>
+        <p>The Capture → Score → Route → Payout engine, tuned for trades — our primary campaign gets the full system first. Tables below are samples of what your dashboard shows.</p>
+      </div>
+      <div class="route-rows">
+        <div class="route-row">
+          <div class="route-txt"><span class="r-step">Step 1 · Capture</span><h3>Capture the homeowner's problem</h3><p>Your ad and chat capture what matters: the trade, the job, the area and the urgency. A &ldquo;my AC stopped working&rdquo; chat becomes a structured enquiry — not just a phone number.</p></div>
+          <div class="route-viz"><div class="viz-cap"><span>Sample enquiry</span><span class="sample-tag">Sample</span></div>
+            <table class="mini-table"><thead><tr><th>Field</th><th>Captured</th></tr></thead><tbody>
+              <tr><td>Trade</td><td>HVAC — repair</td></tr>
+              <tr><td>Job</td><td>AC not cooling</td></tr>
+              <tr><td>Area</td><td>Houston, TX</td></tr>
+              <tr><td>Urgency</td><td>Today</td></tr>
+            </tbody></table>
+          </div>
+        </div>
+        <div class="route-row">
+          <div class="route-txt"><span class="r-step">Step 2 · Score</span><h3>Score the call against the rules</h3><p>When the homeowner calls your number, the system scores it live: in-area, right trade, real intent, past the duration threshold. Only then does it count as qualified.</p></div>
+          <div class="route-viz"><div class="viz-cap"><span>Sample scoring</span><span class="sample-tag">Sample</span></div>
+            <table class="mini-table"><thead><tr><th>Check</th><th>Result</th></tr></thead><tbody>
+              <tr><td>Service area</td><td><span class="status q">In area</span></td></tr>
+              <tr><td>Trade match</td><td><span class="status q">HVAC</span></td></tr>
+              <tr><td>Duration 3m 40s</td><td><span class="status q">Qualified</span></td></tr>
+              <tr><td>Duplicate</td><td><span class="status q">Clear</span></td></tr>
+            </tbody></table>
+          </div>
+        </div>
+        <div class="route-row">
+          <div class="route-txt"><span class="r-step">Step 3 · Route</span><h3>Route to the right contractor</h3><p>Qualified calls route to the contractor who covers that trade in that area — the call a contractor can actually book and bill. Wrong-trade or out-of-area calls never burn a buyer's trust.</p></div>
+          <div class="route-viz"><div class="viz-cap"><span>Sample routing</span><span class="sample-tag">Sample</span></div>
+            <table class="mini-table"><thead><tr><th>Call</th><th>Routed to</th></tr></thead><tbody>
+              <tr><td>HVAC · Houston</td><td>HVAC contractor A</td></tr>
+              <tr><td>Plumbing · Dallas</td><td>Plumbing contractor B</td></tr>
+              <tr><td>Roofing · Phoenix</td><td>Roofing contractor C</td></tr>
+            </tbody></table>
+          </div>
+        </div>
+        <div class="route-row">
+          <div class="route-txt"><span class="r-step">Step 4 · Payout</span><h3>See your margin per trade</h3><p>Your dashboard totals qualified calls per trade, so you can see which of your trades actually earns — and double down on the work that pays.</p></div>
+          <div class="route-viz"><div class="viz-cap"><span>Sample partner view</span><span class="sample-tag">Sample</span></div>
+            <table class="mini-table"><thead><tr><th>Trade</th><th>Calls</th><th>Qualified</th></tr></thead><tbody>
+              <tr><td>HVAC</td><td>18</td><td>11</td></tr>
+              <tr><td>Plumbing</td><td>14</td><td>9</td></tr>
+              <tr><td>Roofing</td><td>9</td><td>5</td></tr>
+            </tbody></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 FEATURES -->
+  <section class="sheet white" id="hs-everything">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Everything included</p>
+        <h2>Everything You Need for Home Services Calls</h2>
+      </div>
+      <div class="feat6">
+        <div class="f6"><span class="t-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 6L3 18l3 3 5.7-5.7a4.5 4.5 0 0 0 6-6L14 13l-3-3 3.7-3.7Z"/></svg></span><b>One trade at a time</b><p>You certify trade by trade, starting with one. Deep knowledge of a single trade beats shallow knowledge of nine.</p></div>
+        <div class="f6"><span class="t-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4a2 2 0 0 0-2-2H6.5A2.5 2.5 0 0 0 4 4.5v15Z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg></span><b>Trade playbooks</b><p>Ad templates, qualifying questions, typical job prices and the objections each trade hears — written for partners.</p></div>
+        <div class="f6"><span class="t-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><b>Per-trade tracking numbers</b><p>Each trade gets its own numbers on your dashboard, so routing and scoring are never mixed up.</p></div>
+        <div class="f6"><span class="t-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10z"/><path d="m9 11.5 2 2 4-4.5"/></svg></span><b>Compliance built in</b><p>Only licensed-trade claims the contractor approves, no invented prices, no fake reviews in ads — the rules are in your certification.</p></div>
+        <div class="f6"><span class="t-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-2 7 5.5-3 5.5 3-2-7"/></svg></span><b>Same tier ladder</b><p>Home Services calls count toward the same Bronze → Silver → Gold ladder, and higher tiers unlock more trades and areas.</p></div>
+        <div class="f6"><span class="t-ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6 12h.01M18 12h.01"/></svg></span><b>One weekly payout</b><p>Home Services earnings — and furniture too, if you add the secondary campaign — land in the same weekly Payoneer or Wise payout. One ledger, no juggling.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRADES -->
+  <section class="sheet grid-bg" id="hs-trades">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">The trades</p>
+        <h2>Nine Trades, One at a Time — Each With Its Own Campaign Page</h2>
+        <p>Tap any trade to open its own campaign page — its jobs, qualifying questions, sample calls and trade FAQ, modelled on how dedicated trade campaigns run. <strong>All nine trades are open for partner onboarding now</strong> — this is our primary campaign, live today. Partners start with a single trade and add more as their tier climbs, with areas assigned against our operating partner's contractor coverage. And on every trade, laptop / PC partners are preferred — urgent calls reward the fastest replies.</p>
+      </div>
+      <div class="trades">
+        <a class="trade" href="#trade-hvac" data-goto="trade" data-trade="hvac"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3 2.5.5 5 2.5 5 6a5 5 0 0 1-10 0c0-1.5.5-3 1.5-4 .5 1 1 2 2 3.5Z"/></svg></span><div><b>HVAC</b><p>AC repair, furnace faults, installs. The most urgent trade in US summers — a priority trade, live now.</p><span class="tr-tag">Primary · Live</span><span class="tr-go">View HVAC campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-plumbing" data-goto="trade" data-trade="plumbing"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 6.7 8.1a7.5 7.5 0 1 0 10.6 0L12 2.7Z"/></svg></span><div><b>Plumbing</b><p>Leaks, blockages, water heaters. Emergency-heavy, year-round, and built for fast responders.</p><span class="tr-tag">Primary · Live</span><span class="tr-go">View Plumbing campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-roofing" data-goto="trade" data-trade="roofing"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m2 11 10-7 10 7"/><path d="M5 10v10h14V10"/></svg></span><div><b>Roofing</b><p>Storm damage, leaks, replacements. Bigger jobs, longer calls, strong contractor demand after weather events.</p><span class="tr-tag">Primary · Live</span><span class="tr-go">View Roofing campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-electrical" data-goto="trade" data-trade="electrical"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg></span><div><b>Electrical</b><p>Faults, panel upgrades, lighting. Licensed work only — compliance rules are strictest here.</p><span class="tr-tag">Live campaign</span><span class="tr-go">View Electrical campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-windows" data-goto="trade" data-trade="windows"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 10h18M10 10v8"/></svg></span><div><b>Windows</b><p>Replacement windows and doors. Quote-driven jobs with longer, detailed calls.</p><span class="tr-tag">Live campaign</span><span class="tr-go">View Windows campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-solar" data-goto="trade" data-trade="solar"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span><div><b>Solar</b><p>Rooftop solar enquiries. High-value, information-heavy calls for patient, well-trained partners.</p><span class="tr-tag">Live campaign</span><span class="tr-go">View Solar campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-siding" data-goto="trade" data-trade="siding"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-5 7 5v13"/><path d="M9 21v-6h6v6"/></svg></span><div><b>Siding</b><p>Replacement and repair siding. Often paired with roofing areas and storm seasons.</p><span class="tr-tag">Live campaign</span><span class="tr-go">View Siding campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-landscaping" data-goto="trade" data-trade="landscaping"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-4 3-8 8-11 5 3 8 7 8 11a7 7 0 0 1-7 7Z"/><path d="M12 22v-8"/></svg></span><div><b>Landscaping</b><p>Design, cleanups, regular care. Seasonal demand with repeat local customers.</p><span class="tr-tag">Live campaign</span><span class="tr-go">View Landscaping campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+        <a class="trade" href="#trade-pest-control" data-goto="trade" data-trade="pest-control"><span class="tr-ic"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10Z"/><path d="m9 11.5 2 2 4-4.5"/></svg></span><div><b>Pest control</b><p>Infestations and prevention plans. Fast, local, repeat-visit work with steady call volume.</p><span class="tr-tag">Live campaign</span><span class="tr-go">View Pest control campaign <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div></a>
+      </div>
+      <div class="cta-band" style="margin-top:22px">
+        <div><h3>Trades come first — furniture is the add-on</h3><p>Start with a Home Services trade as your primary campaign. Your tier, dashboard and payout are one system, so adding the secondary furniture campaign later takes nothing but a short extra certification.</p></div>
+        <a class="btn btn-white btn-lg" href="#apply" data-goto="home" data-anchor="apply">Apply — trades first</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HS FAQ -->
+  <section class="dark-sec" id="hs-faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow on-dark">Home Services FAQ</p>
+        <h2>Questions About the Trades Campaign</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq"><summary>Is Home Services live right now?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Yes — Home Services is our primary, preferred campaign, live now, and it is the one we onboard partners to first. Furniture (beds &amp; sofas) is the secondary campaign. Apply for the trade you want, complete its training and certification, and your areas are assigned against contractor coverage.</p></details>
+        <details class="faq"><summary>Do I need trade experience?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>No — you need selling experience and trainability. Each trade has a playbook: the common jobs, the qualifying questions, typical price ranges and the words homeowners use. You certify on one trade before you take its calls.</p></details>
+        <details class="faq"><summary>What makes a home services call qualified?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>A real homeowner, inside the contractor's service area, asking about a job in the right trade, who stays on the call past the campaign's duration threshold. Renters asking for work only a landlord can authorise, and out-of-area calls, do not qualify — your playbook teaches you to spot both in chat before the call.</p></details>
+        <details class="faq"><summary>How is it paid compared to furniture?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>The same way: per qualified call, at a rate set by your tier and the trade campaign, agreed in writing before you start, totalled into the same weekly Payoneer or Wise payout. Urgent trades usually carry stronger rates than quieter work — your campaign sheet shows the exact rate before you commit.</p></details>
+        <details class="faq"><summary>Can I sell furniture and home services together?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Yes. One dashboard, one tier, one payout. Most partners start with a Home Services trade — it is our primary campaign — and add furniture as a secondary campaign if they want extra volume.</p></details>
+        <details class="faq"><summary>What hours do home services partners work?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>US hours. Homeowners call when something breaks — mornings, evenings and weekends in the contractor's area. From South Asia that means late nights; the application asks your available hours honestly, and campaigns are assigned to match.</p></details>
+      </div>
+      <div class="cta-band" style="margin-top:30px">
+        <div><h3>One application covers both campaigns</h3><p>Pick your Home Services trade in the application — it is the primary campaign, so your training starts with that trade. Furniture can be added later as the secondary campaign.</p></div>
+        <a class="btn btn-white btn-lg" href="#apply" data-goto="home" data-anchor="apply">Apply now</a>
+      </div>
+    </div>
+  </section>
+</div><!-- /view-home-services -->
+
+<!-- ==================================================== -->
+<!-- ============ INDIVIDUAL TRADE VIEW ================= -->
+<!-- ==================================================== -->
+<div class="view" id="view-trade">
+  <div id="tradeContent"></div>
+</div><!-- /view-trade -->
+
+<!-- FINAL CTA -->
+<section class="dark-sec final-cta" id="start">
+  <div class="wrap">
+    <p class="eyebrow on-dark" style="justify-content:center;display:flex">No fee · No investment · Free training</p>
+    <h2>Your First Qualified Call Is One Application Away</h2>
+    <p>Apply in five minutes, pass the screening chat, train free, and get your own dashboard. Home Services — our primary campaign — is already running and waiting for sellers; furniture is there as the secondary add-on.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-blue btn-lg" href="#apply" data-goto="home" data-anchor="apply">Apply to become a partner</a>
+      <a class="btn btn-ghostlight btn-lg" href="#hs-top" data-goto="home-services">Explore Home Services</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <b><span class="mark" style="width:30px;height:30px;border-radius:8px;background:var(--blue);display:grid;place-items:center;color:#fff"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>Rich Calls</b>
+        <p>Partners are independent contractors, not employees. Earnings depend on the qualified calls you generate — what this program guarantees is free training, honest tracking on your own dashboard, and weekly payouts. It never guarantees a fixed income.</p>
+      </div>
+      <div><h5>Campaigns</h5><ul>
+        <li><a href="#hs-top" data-goto="home-services">Home Services — PRIMARY (all trades)</a></li>
+        <li><a href="#trade-plumbing" data-goto="trade" data-trade="plumbing">Plumbing</a></li>
+        <li><a href="#trade-electrical" data-goto="trade" data-trade="electrical">Electrician</a></li>
+        <li><a href="#trade-hvac" data-goto="trade" data-trade="hvac">HVAC</a></li>
+        <li><a href="#trade-roofing" data-goto="trade" data-trade="roofing">Roofing</a></li>
+        <li><a href="#trade-windows" data-goto="trade" data-trade="windows">Windows</a> · <a href="#trade-solar" data-goto="trade" data-trade="solar">Solar</a></li>
+        <li><a href="#trade-siding" data-goto="trade" data-trade="siding">Siding</a> · <a href="#trade-landscaping" data-goto="trade" data-trade="landscaping">Landscaping</a> · <a href="#trade-pest-control" data-goto="trade" data-trade="pest-control">Pest Control</a></li>
+        <li><a href="#sell" data-goto="home" data-anchor="sell">Furniture — beds &amp; sofas (secondary)</a></li>
+        <li><a href="#setup" data-goto="home" data-anchor="setup">Laptop / PC — earn more</a></li>
+        <li><a href="#tiers" data-goto="home" data-anchor="tiers">Rates &amp; tiers</a></li>
+      </ul></div>
+      <div><h5>For Partners</h5><ul>
+        <li><a href="#how" data-goto="home" data-anchor="how">How it works</a></li>
+        <li><a href="#system" data-goto="home" data-anchor="system">The partner system</a></li>
+        <li><a href="#who" data-goto="home" data-anchor="who">Who can apply</a></li>
+        <li><a href="#faq" data-goto="home" data-anchor="faq">FAQ</a></li>
+      </ul></div>
+      <div><h5>Countries</h5><ul>
+        <li><a href="#who" data-goto="home" data-anchor="who">India</a></li>
+        <li><a href="#who" data-goto="home" data-anchor="who">Bangladesh</a></li>
+        <li><a href="#who" data-goto="home" data-anchor="who">Pakistan</a></li>
+        <li><a href="#who" data-goto="home" data-anchor="who">Nepal &amp; Philippines</a></li>
+      </ul></div>
+      <div><h5>Start</h5><ul>
+        <li><a href="#apply" data-goto="home" data-anchor="apply">Apply now</a></li>
+        <li><a href="#hs-faq" data-goto="home-services" data-anchor="hs-faq">Home Services FAQ</a></li>
+        <li><a href="#tiers" data-goto="home" data-anchor="tiers">Referral bonus</a></li>
+      </ul></div>
+    </div>
+    <div class="foot-bottom">
+      <span>Rich Calls — Pay-Per-Call Partner Network · UK &amp; USA campaigns · Contracts held by our operating partner</span>
+      <span>Support in English · Hindi · Bengali · Urdu</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* ---------- individual trade campaigns ---------- */
+  var CHECK='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
+  var ARROW='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+  var TRADES={
+    plumbing:{name:'Plumbing',label:'Plumbing',status:'Primary · Live',hero:'Plumbing Calls From Homeowners With Water Problems — Right Now',lede:'Leaks, burst pipes, blocked drains and dead water heaters do not wait for office hours. You publish the ads, chat with the homeowner, qualify the job in minutes and connect the call. Every qualified plumbing call is routed to a plumber in the homeowner\u2019s own area and paid per call.',buyer:'US homeowners with a leak, blockage or no hot water',jobs:[['Leak repair','Dripping taps, leaking pipes and hidden leaks — the most common plumbing enquiry.'],['Blocked drains','Slow or fully blocked sinks, toilets and drains that need clearing today.'],['Water heaters','No hot water, faulty heaters and replacement quotes.'],['Burst pipes','The true emergency: water off, damage spreading, caller wants someone now.'],['Bathroom fitting','New taps, toilets and shower installs — scheduled, quote-driven work.'],['Boiler &amp; heating water','Heating-side water problems routed with the plumbing campaign sheet.']],questions:['What is leaking, blocked or not working?','Where are you located — are you inside our service area?','Is water still flowing / is it an emergency right now?','Are you the homeowner, and can you approve the work?'],chat:'Hi, my kitchen sink is blocked and water is backing up. Can someone come today?',calls:[['Plumbing — Houston','Leak repair','4m 10s','Qualified'],['Plumbing — Dallas','Blocked drain','3m 32s','Qualified'],['Plumbing — Phoenix','Water heater','0m 48s','Too short'],['Plumbing — Austin','Burst pipe','5m 21s','Qualified']],faq:[['What makes a plumbing call qualified?','A real homeowner, inside the service area, with a genuine plumbing job, who stays on the call past the campaign duration threshold. Renters who cannot authorise the work do not qualify — your playbook teaches you to check that in chat.'],['Do I quote plumbing prices?','Never invent a price. You use the typical ranges in the trade playbook only to keep the conversation honest, and the contractor confirms the real quote on the call.'],['Why is plumbing a priority trade?','It is emergency-heavy and year-round — contractors need live calls in every season, so plumbing sits at the top of our primary Home Services campaign.']]},
+    electrical:{name:'Electrician',label:'Electrician',status:'Live campaign',hero:'Electrician Calls From Homeowners Who Cannot Touch the Wiring Themselves',lede:'Tripped breakers, dead sockets, flickering lights and panel upgrades — electrical work is licensed, safety-critical and never DIY. You chat with the homeowner, qualify the fault safely, and connect the call to a licensed electrician in their area. Paid per qualified call.',buyer:'US homeowners with a fault, upgrade or safety concern',jobs:[['Fault finding','Breakers tripping, dead circuits and mystery power loss.'],['Lighting','New lighting, faulty fittings and outdoor lights.'],['Panel upgrades','Old fuse boxes and breaker panels replaced to modern standard.'],['Sockets &amp; switches','New points, faulty sockets and USB outlets.'],['EV charging points','Home charger installs — higher-value enquiries.'],['Safety checks','Landlord and homeowner electrical safety inspections.']],questions:['What exactly stopped working — or what do you want installed?','Is anything sparking, hot or smelling of burning? (If yes: safety script first)','Where are you located — inside our service area?','Are you the homeowner who can approve licensed work?'],chat:'Hi, half the sockets in my house stopped working and the breaker keeps tripping. Is that something you can fix?',calls:[['Electrical — Houston','Fault finding','4m 44s','Qualified'],['Electrical — Dallas','Panel upgrade','6m 02s','Qualified'],['Electrical — Phoenix','Lighting','1m 05s','Too short'],['Electrical — Austin','EV charger','3m 58s','Qualified']],faq:[['Why are the rules strictest on electrical?','Only licensed electricians can do this work, and ads must never promise unlicensed fixes. Your certification covers exactly what you may and may not say.'],['What makes an electrician call qualified?','A homeowner in-area with a real electrical job who talks past the duration threshold. Pure price-shoppers who hang up in seconds, and out-of-area calls, do not count.'],['Do I need electrical knowledge?','No. The playbook lists the common faults in plain homeowner language and the safe qualifying questions for each one.']]},
+    hvac:{name:'HVAC',label:'HVAC',status:'Primary · Live',hero:'HVAC Calls When the AC Dies in Summer and the Furnace Dies in Winter',lede:'Heating and cooling failures are the most seasonal, most urgent calls in home services. You publish the ads, chat with a hot (or freezing) homeowner, qualify the system and the urgency, and connect the call. Paid per qualified call on the same dashboard.',buyer:'US homeowners with no cooling, no heating or a failing system',jobs:[['AC repair','AC not cooling, blowing warm or not starting — peak summer demand.'],['Furnace faults','No heat, strange noises and furnaces cutting out in winter.'],['New system installs','Full AC / furnace replacement quotes — the biggest-ticket HVAC jobs.'],['Tune-ups &amp; servicing','Seasonal maintenance before summer and winter peaks.'],['Duct &amp; airflow','Weak airflow, hot rooms and duct cleaning enquiries.'],['Thermostats','Smart thermostat installs and faulty controls.']],questions:['Is it cooling, heating, or a full replacement you need?','What is the system doing — or not doing — right now?','Where are you located — inside our service area?','How urgent is it: no cooling/heating at all, or still running?'],chat:'Hi, our AC stopped cooling yesterday and the house is 86 degrees. Can someone look at it today?',calls:[['HVAC — Houston','AC repair','3m 40s','Qualified'],['HVAC — Dallas','AC not cooling','4m 18s','Qualified'],['HVAC — Phoenix','New install quote','0m 52s','Too short'],['HVAC — Austin','Furnace fault','5m 07s','Qualified']],faq:[['When is HVAC busiest?','The first heatwave and the first cold snap. Partners who are ready before those weeks — trained, certified, on a laptop — take the surge.'],['What makes an HVAC call qualified?','An in-area homeowner with a real heating or cooling job who stays past the duration threshold. Warranty and landlord-authorisation cases are covered in the playbook.'],['Is HVAC a primary trade?','Yes — alongside plumbing, HVAC is one of the priority trades in our primary Home Services campaign, driven by summer AC demand.']]},
+    roofing:{name:'Roofing',label:'Roofing',status:'Primary · Live',hero:'Roofing Calls After Storms, Leaks and Ageing Roofs',lede:'A leaking roof never fixes itself, and storm damage sends whole neighbourhoods looking for a roofer in the same week. You chat with the homeowner, qualify the damage and the roof type, and connect the call to a roofing contractor in their area. Bigger jobs mean longer, higher-value calls.',buyer:'US homeowners with leaks, storm damage or a roof to replace',jobs:[['Leak repair','Active leaks and water stains — urgent before the next rain.'],['Storm damage','Missing shingles and wind / hail damage, often insurance-backed.'],['Full replacement','End-of-life roofs — the largest jobs in the trade.'],['Roof inspection','Pre-purchase and post-storm inspections and reports.'],['Gutters','Blocked, leaking or replacement guttering enquiries.'],['Flat roofing','Repairs and replacement for flat and low-slope roofs.']],questions:['Is it a leak, storm damage, or a full replacement you are planning?','When did it start — and is water coming in now?','Where are you located — inside our service area?','Roughly how old is the roof, if you know?'],chat:'Hi, after last night\u2019s storm we have water dripping through the bedroom ceiling. Do you do emergency roof repairs?',calls:[['Roofing — Houston','Storm damage','5m 36s','Qualified'],['Roofing — Dallas','Leak repair','4m 02s','Qualified'],['Roofing — Phoenix','Replacement quote','6m 20s','Qualified'],['Roofing — Austin','Inspection','0m 59s','Too short']],faq:[['Why do roofing calls run longer?','Replacement and storm jobs involve insurance, roof age and access questions — longer conversations, which is exactly what the duration-based scoring rewards.'],['What makes a roofing call qualified?','An in-area homeowner with real roof work who talks past the threshold. Renters and purely cosmetic enquiries are filtered in chat using the playbook.'],['Do storm weeks need special cover?','Yes. After major weather, roofing campaigns surge for days. Certified partners who can cover US hours on a laptop get those campaigns first.']]},
+    windows:{name:'Windows',label:'Windows',status:'Live campaign',hero:'Window Calls From Homeowners Planning a Quieter, Warmer Home',lede:'Replacement windows are considered, researched purchases — homeowners compare quotes and ask detailed questions. Patient partners who can hold a proper conversation win here. You qualify the project, count the windows, and connect the call. Paid per qualified call.',buyer:'US homeowners replacing windows or doors',jobs:[['Full-house replacement','Whole-home window projects — the core windows campaign.'],['Single windows','One broken, fogged or draughty window replaced.'],['Doors','Front, patio and sliding door replacement enquiries.'],['Energy upgrades','Old single-pane replaced for warmth and lower bills.'],['Condensation &amp; fogging','Failed sealed units — a very common first enquiry.'],['New openings','Windows added in extensions and conversions.']],questions:['How many windows are you looking to replace?','What is the main reason — draughts, fogging, damage, or a full upgrade?','Where are you located — inside our service area?','Are you the homeowner, and is this a project for this season?'],chat:'Hi, most of our windows are fogged up and draughty. How much would it cost to replace about 8 windows?',calls:[['Windows — Houston','Full-house quote','6m 44s','Qualified'],['Windows — Dallas','Fogged units','4m 29s','Qualified'],['Windows — Phoenix','Single window','1m 12s','Too short'],['Windows — Austin','Doors + windows','5m 51s','Qualified']],faq:[['Are windows calls less urgent than plumbing?','Yes — and that is the point. These are considered projects, which mean longer, calmer, information-rich calls. Partners who rush these chats lose them.'],['What makes a windows call qualified?','An in-area homeowner with a real replacement project who stays past the duration threshold and confirms rough window count in chat.'],['Do I quote window prices?','Only the playbook ranges, and always as an estimate the contractor confirms after measuring. Never a fixed promise.']]},
+    solar:{name:'Solar',label:'Solar',status:'Live campaign',hero:'Solar Calls From Homeowners Who Want Off the Rising Bill',lede:'Rooftop solar is a high-value, information-heavy decision. Homeowners ask about savings, panels, batteries and payback — and the partners who can explain the basics clearly produce the best calls in Home Services. Training covers everything; you bring the patience.',buyer:'US homeowners researching rooftop solar',jobs:[['Rooftop solar quotes','Full system design and quote enquiries — the core campaign.'],['Battery storage','Adding batteries to new or existing solar.'],['Bill-saving assessments','Homeowners comparing solar against rising energy bills.'],['Panel upgrades','Expanding or replacing an older system.'],['EV + solar bundles','Charging an EV from rooftop solar — growing enquiry type.'],['Off-peak &amp; tariffs','Questions about selling power back and time-of-use rates.']],questions:['Do you own your roof — and is it in reasonable condition?','Roughly what is your monthly electricity bill?','Where are you located — inside our service area?','Are you researching, or ready for a design quote this month?'],chat:'Hi, our electricity bill keeps going up. How much would solar panels cost for a 3-bedroom house?',calls:[['Solar — Phoenix','Rooftop quote','7m 15s','Qualified'],['Solar — Houston','Battery storage','5m 33s','Qualified'],['Solar — Dallas','Bill assessment','4m 47s','Qualified'],['Solar — Austin','General question','0m 44s','Too short']],faq:[['Why does solar need the best-trained partners?','The calls are long and technical. Certification is deeper here, and only partners with strong quality scores unlock solar campaigns.'],['What makes a solar call qualified?','A homeowner (renters cannot install) in-area, with a suitable roof and a real bill, who talks past the duration threshold.'],['Do I promise savings figures?','Never. You use the playbook\u2019s honest framing — savings depend on the home — and the contractor does the real calculation.']]},
+    siding:{name:'Siding',label:'Siding',status:'Live campaign',hero:'Siding Calls for Homes That Need a New Skin',lede:'Cracked, warped or storm-damaged siding is both a weather problem and a kerb-appeal problem. Siding campaigns often run alongside roofing in the same areas. You qualify the material and the scale of the job, then connect the call — paid per qualified call.',buyer:'US homeowners repairing or replacing exterior siding',jobs:[['Full replacement','Whole-home re-siding — the core, big-ticket campaign.'],['Storm &amp; impact damage','Damaged sections after weather or accidents.'],['Repairs','Cracked, warped or loose panels matched and fixed.'],['Fibre-cement upgrades','Upgrading old siding to durable modern materials.'],['Vinyl siding','Replacement and repair of the most common US siding.'],['Trim &amp; fascia','Finishing boards and weatherproofing details.']],questions:['Is it a repair or a full replacement you are thinking about?','What material is on the house now, if you know?','Where are you located — inside our service area?','Is there active weather damage letting water in?'],chat:'Hi, a storm cracked the siding on one side of our house. Do you repair sections or only replace everything?',calls:[['Siding — Houston','Storm damage','4m 38s','Qualified'],['Siding — Dallas','Full replacement','6m 11s','Qualified'],['Siding — Phoenix','Repair quote','3m 49s','Qualified'],['Siding — Austin','Price only','0m 51s','Too short']],faq:[['Is siding open for partners now?','Yes — siding is a live Home Services trade, with areas assigned against contractor coverage and often paired with roofing. Apply for siding and your training starts with it.'],['What makes a siding call qualified?','An in-area homeowner with real siding work who confirms the job scale in chat and talks past the duration threshold.'],['Can I sell siding and roofing together?','Yes — partners often certify on both, since the same storm season drives both campaigns.']]},
+    landscaping:{name:'Landscaping',label:'Landscaping',status:'Live campaign',hero:'Landscaping Calls From Homeowners Fixing the Garden This Season',lede:'Garden design, cleanups and regular care are seasonal, local and repeat-heavy — one good call can mean a customer for years. You chat with the homeowner, qualify the garden and the job, and connect the call. A calmer trade, ideal as a second certification.',buyer:'US homeowners planning garden work or regular care',jobs:[['Garden design','Full redesigns and planting plans.'],['Seasonal cleanups','Spring and autumn tidy-ups — high seasonal volume.'],['Lawn care plans','Regular mowing and care — repeat local work.'],['Patios &amp; paving','Hard landscaping and outdoor living spaces.'],['Fencing','New and replacement garden fencing.'],['Tree &amp; hedge work','Cutting, shaping and removal enquiries.']],questions:['What work are you looking for — design, cleanup, or regular care?','How big is the garden, roughly?','Where are you located — inside our service area?','Is this a one-off job or ongoing care?'],chat:'Hi, our garden is completely overgrown. Do you do full cleanups, and what would it cost?',calls:[['Landscaping — Dallas','Full cleanup','4m 05s','Qualified'],['Landscaping — Houston','Design quote','5m 48s','Qualified'],['Landscaping — Austin','Lawn plan','3m 37s','Qualified'],['Landscaping — Phoenix','One question','0m 47s','Too short']],faq:[['When is landscaping busiest?','Spring and early autumn. Certified partners ready before the season take the volume.'],['What makes a landscaping call qualified?','An in-area homeowner with a real garden job who confirms the work type in chat and talks past the duration threshold.'],['Is landscaping good as a second trade?','Yes — it pairs well with pest control and siding, and its calmer chats suit partners building up to the urgent trades.']]},
+    'pest-control':{name:'Pest Control',label:'Pest Control',status:'Live campaign',hero:'Pest Control Calls When Something Is Living in the House Uninvited',lede:'Ants, roaches, rodents, wasps and termites — pest calls are fast, local and often urgent, and prevention plans repeat month after month. You qualify the pest and the property, reassure the homeowner, and connect the call. Paid per qualified call.',buyer:'US homeowners with an infestation or prevention plan',jobs:[['Insect infestations','Ants, roaches, bed bugs and spiders inside the home.'],['Rodents','Mice and rats in lofts, walls and kitchens.'],['Wasp nests','Nest removal — urgent in summer, safety-led scripts.'],['Termites','Inspections and treatment plans — high-value calls.'],['Prevention plans','Regular treatment subscriptions for homes.'],['Wildlife calls','Squirrels and other wildlife routed per campaign rules.']],questions:['What pest are you seeing — and where in the home?','When did you first notice it?','Where are you located — inside our service area?','Is anyone in the home allergic or is a nest near a doorway? (Safety script)'],chat:'Hi, we keep finding cockroaches in the kitchen at night. Can someone treat the house this week?',calls:[['Pest — Houston','Roach treatment','3m 56s','Qualified'],['Pest — Dallas','Rodent call','4m 22s','Qualified'],['Pest — Phoenix','Termite inspection','5m 14s','Qualified'],['Pest — Austin','Quick question','0m 39s','Too short']],faq:[['What makes a pest control call qualified?','An in-area homeowner (or authorised tenant per campaign rules) with a real pest problem who talks past the duration threshold.'],['Do pest campaigns repeat?','Prevention plans are subscription work, so contractors value these calls highly — and steady volume suits consistent partners.'],['Any safety rules?','Yes — wasp nests and chemical questions follow the safety script exactly. You never advise home treatments beyond the playbook.']]}
+  };
+  var TRADE_ORDER=['plumbing','electrical','hvac','roofing','windows','solar','siding','landscaping','pest-control'];
+  function esc(s){return s;}
+  function renderTrade(slug){
+    var t=TRADES[slug]; if(!t) slug='plumbing', t=TRADES[slug];
+    var jobs=t.jobs.map(function(j){return '<div class="job-card"><b>'+j[0]+'</b><p>'+j[1]+'</p></div>';}).join('');
+    var qs=t.questions.map(function(q){return '<li>'+CHECK+'<span>'+q+'</span></li>';}).join('');
+    var rows=t.calls.map(function(c){var st=c[3]==='Qualified'?'<span class="status q">Qualified</span>':'<span class="status p">Too short</span>';return '<tr><td>'+c[0]+'</td><td>'+c[1]+'</td><td>'+c[2]+'</td><td>'+st+'</td></tr>';}).join('');
+    var faqs=t.faq.map(function(f){return '<details class="faq"><summary>'+f[0]+'<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>'+f[1]+'</p></details>';}).join('');
+    var nav=TRADE_ORDER.map(function(s){return '<a href="#trade-'+s+'" data-goto="trade" data-trade="'+s+'"'+(s===slug?' class="on"':'')+'>'+TRADES[s].label+'</a>';}).join('');
+    document.getElementById('tradeContent').innerHTML=
+    '<div class="sheet grid-bg"><div class="wrap-narrow hero">'
+    +'<a class="back-link" href="#hs-trades" data-goto="home-services" data-anchor="hs-trades">&larr; All Home Services trades</a><br/>'
+    +'<span class="pill"><span class="dot"></span>Home Services campaign &middot; '+t.name+' &middot; '+t.status+'</span>'
+    +'<h1>'+t.hero+'</h1><p class="lede">'+t.lede+'</p>'
+    +'<div class="hero-ctas"><a class="btn btn-blue btn-lg" href="#apply" data-goto="home" data-anchor="apply">Apply for '+t.name+' '+ARROW+'</a><a class="btn btn-dark btn-lg" href="#hs-top" data-goto="home-services">All Home Services</a></div>'
+    +'<div class="check-row"><span>'+CHECK+'No joining fee</span><span>'+CHECK+'Free '+t.name+' training</span><span>'+CHECK+'Weekly payouts</span><span>'+CHECK+'Your own tracking numbers</span></div>'
+    +'<div class="setup-banner"><span class="sb-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M2 21h20"/></svg></span><div><b>Laptop / PC preferred — earn a handsome amount.</b> <span>'+t.name+' buyers message several partners at once. The fastest, best-organised reply — on a laptop desk — gets the call.</span></div></div>'
+    +'<div class="trade-nav-row" aria-label="All trade campaigns">'+nav+'</div>'
+    +'</div></div>'
+    +'<section class="dark-sec"><div class="wrap"><div class="sec-head"><p class="eyebrow on-dark">The jobs you will qualify</p><h2>'+t.name+' Work Homeowners Actually Call About</h2><p>For: '+t.buyer+'. You never do the trade work — you spot the job, qualify it, and connect the call.</p></div><div class="jobs-grid">'+jobs+'</div></div></section>'
+    +'<section class="sheet white"><div class="wrap"><div class="sec-head"><p class="eyebrow">How your '+t.name+' calls work</p><h2>Chat, Qualify, Connect — Then It Is Scored and Paid</h2></div>'
+    +'<div class="route-rows">'
+    +'<div class="route-row" style="background:#fff;border-color:#e2e8f2"><div class="route-txt"><span class="r-step" style="color:var(--blue)">Step 1 &middot; Qualify in chat</span><h3 style="color:var(--ink)">Ask these four questions first</h3><p style="color:var(--muted)">A buyer messages you — for example: &ldquo;'+t.chat+'&rdquo; Your job is to answer fast and qualify with the playbook questions before you share the number.</p></div><div class="route-viz" style="background:#f7f9fd;border-color:#e2e8f2"><div class="viz-cap"><span style="color:var(--muted)">'+t.name+' qualifying checklist</span><span class="sample-tag">Playbook</span></div><ul class="checklist">'+qs+'</ul></div></div>'
+    +'<div class="route-row" style="background:#fff;border-color:#e2e8f2"><div class="route-txt"><span class="r-step" style="color:var(--blue)">Step 2 &middot; Score &amp; route</span><h3 style="color:var(--ink)">Scored live, routed by area</h3><p style="color:var(--muted)">The call is checked for service area, trade match, duration and duplicates, then routed to the '+t.name.toLowerCase()+' contractor covering that area. Qualified calls total into your weekly payout — trades first, with any secondary furniture calls in the same ledger.</p></div><div class="route-viz" style="background:#0a111f;border-color:#e2e8f2"><div class="viz-cap"><span>Sample '+t.name+' calls</span><span class="sample-tag">Sample</span></div><table class="mini-table"><thead><tr><th>Campaign</th><th>Job</th><th>Duration</th><th>Status</th></tr></thead><tbody>'+rows+'</tbody></table></div></div>'
+    +'</div>'
+    +'<div class="cta-band" style="margin-top:22px"><div><h3>Start with '+t.name+' today — it is a primary campaign</h3><p>Home Services comes before furniture on this program. Apply once, complete '+t.name+' certification ('+t.status.toLowerCase()+'), and sell trades first — furniture stays available afterwards as the secondary add-on on the same dashboard, tier and payout.</p></div><a class="btn btn-white btn-lg" href="#apply" data-goto="home" data-anchor="apply">Apply for '+t.name+'</a></div>'
+    +'</div></section>'
+    +'<section class="dark-sec"><div class="wrap"><div class="sec-head"><p class="eyebrow on-dark">'+t.name+' FAQ</p><h2>Questions About the '+t.name+' Campaign</h2></div><div class="faq-list">'+faqs
+    +'<details class="faq"><summary>Is '+t.name+' live right now?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Yes. Home Services is our primary campaign — live now, not a future campaign — and '+t.name+' is open for partner onboarding now (status: '+t.status+'). Apply, train and certify on '+t.name+', and your areas are assigned against contractor coverage. Furniture is the secondary campaign if you want to add it later.</p></details>'
+    +'<details class="faq"><summary>Do I need a laptop for '+t.name+'?<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Laptop / PC is preferred on every campaign, and it matters most on urgent trades: several homeowners chat at once, and the partner who replies first and qualifies cleanly gets the call. That speed and volume is how partners earn a handsome amount.</p></details>'
+    +'</div><div class="trade-nav-row" style="margin-top:30px">'+nav+'</div></div></section>';
+    try{ var sel=document.getElementById('fCampaign'); if(sel){ for(var i=0;i<sel.options.length;i++){ if(sel.options[i].text.toLowerCase().indexOf(t.label.toLowerCase())>-1){ sel.selectedIndex=i; break; } } } }catch(err){}
+    bindGoto(document.getElementById('tradeContent'));
+  }
+  /* ---------- view switching ---------- */
+  var views={home:document.getElementById('view-home'),'home-services':document.getElementById('view-home-services'),trade:document.getElementById('view-trade')};
+  var current='home';
+  function showView(name,anchor,tradeSlug){
+    if(!views[name]) name='home';
+    if(name==='trade') renderTrade(tradeSlug||'plumbing');
+    current=name;
+    Object.keys(views).forEach(function(k){views[k].classList.toggle('active',k===name);});
+    document.querySelectorAll('.nav-home').forEach(function(a){a.classList.toggle('active',name==='home');});
+    var mobile=document.getElementById('mobileNav'); mobile.classList.remove('open');
+    document.getElementById('menuBtn').setAttribute('aria-expanded','false');
+    closeDrops();
+    if(anchor){
+      var el=document.getElementById(anchor);
+      if(el){ setTimeout(function(){ el.scrollIntoView({behavior:'smooth',block:'start'}); },30); return; }
+    }
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+  function bindGoto(scope){
+    (scope||document).querySelectorAll('[data-goto]').forEach(function(el){
+      if(el.__gotoBound) return; el.__gotoBound=true;
+      el.addEventListener('click',function(e){
+        var target=el.getAttribute('data-goto');
+        var anchor=el.getAttribute('data-anchor');
+        var tradeSlug=el.getAttribute('data-trade');
+        if(target===current && target!=='trade' && anchor){ return; }
+        if(target===current && target!=='trade' && !anchor){ e.preventDefault(); window.scrollTo({top:0,behavior:'smooth'}); return; }
+        e.preventDefault();
+        showView(target,anchor,tradeSlug);
+        try{ history.replaceState(null,'','#'+(target==='trade'?'trade-'+(tradeSlug||'plumbing'):target==='home-services'?'home-services':'top')); }catch(err){}
+      });
+    });
+  }
+  bindGoto(document);
+  var hm=location.hash.match(/trade-([a-z-]+)/);
+  if(hm && TRADES[hm[1]]){ showView('trade',null,hm[1]); window.scrollTo(0,0); }
+  else if(location.hash.indexOf('home-services')>-1){ showView('home-services'); window.scrollTo(0,0); }
+
+  /* ---------- header dropdowns ---------- */
+  var drops=document.querySelectorAll('.nav-drop');
+  function closeDrops(){ drops.forEach(function(d){ d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded','false'); }); }
+  drops.forEach(function(d){
+    var btn=d.querySelector('button');
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var was=d.classList.contains('open');
+      closeDrops();
+      if(!was){ d.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+    });
+  });
+  document.addEventListener('click',function(){ closeDrops(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeDrops(); });
+
+  /* ---------- mobile menu ---------- */
+  var menuBtn=document.getElementById('menuBtn'), mobileNav=document.getElementById('mobileNav');
+  menuBtn.addEventListener('click',function(){
+    var open=mobileNav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded',open?'true':'false');
+  });
+
+  /* ---------- dashboard demo tabs ---------- */
+  document.querySelectorAll('[data-demo]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      document.querySelectorAll('[data-demo]').forEach(function(b){b.classList.toggle('active',b===btn);});
+      document.querySelectorAll('[data-panel]').forEach(function(p){p.classList.toggle('active',p.getAttribute('data-panel')===btn.getAttribute('data-demo'));});
+    });
+  });
+
+  /* ---------- who tabs ---------- */
+  document.querySelectorAll('[data-who]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      document.querySelectorAll('[data-who]').forEach(function(b){b.classList.toggle('active',b===btn);});
+      document.querySelectorAll('[data-who-panel]').forEach(function(p){p.classList.toggle('active',p.getAttribute('data-who-panel')===btn.getAttribute('data-who'));});
+    });
+  });
+})();
+</script>
+<script>
+(function () {
+  var form = document.getElementById('applyForm');
+  var result = document.getElementById('applyResult');
+  var errorSummary = document.getElementById('errorSummary');
+  var appTextEl = document.getElementById('appText');
+  var refCodeEl = document.getElementById('refCode');
+  var copiedMsg = document.getElementById('copiedMsg');
+  var currentText = '';
+  function field(id) { return document.getElementById(id); }
+  function setValidity(input, ok) {
+    input.classList.toggle('invalid', !ok);
+    var err = document.querySelector('[data-err-for="' + input.id + '"]');
+    if (err) err.classList.toggle('show', !ok);
+    return ok;
+  }
+  var validators = {
+    fName: function (v) { return v.trim().length >= 2; },
+    fCountry: function (v) { return v !== ''; },
+    fCity: function (v) { return v.trim().length >= 2; },
+    fWhatsapp: function (v) { var d=v.replace(/\D/g,''); return d.length >= 9 && d.length <= 15; },
+    fEmail: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()); },
+    fEnglish: function (v) { return v !== ''; },
+    fDevice: function (v) { return v !== ''; },
+    fHours: function (v) { return v !== ''; },
+    fExperience: function (v) { return v !== ''; },
+    fLanguages: function (v) { return v.trim().length >= 2; },
+    fShift: function (v) { return v !== ''; },
+    fReply: function (v) { return v.trim().split(/\s+/).filter(Boolean).length >= 6; }
+  };
+  Object.keys(validators).forEach(function (id) {
+    var input = field(id);
+    input.addEventListener('input', function () { setValidity(input, true); });
+    input.addEventListener('change', function () { setValidity(input, true); });
+  });
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var ids = Object.keys(validators);
+    var firstBad = null, allOk = true;
+    ids.forEach(function (id) {
+      var input = field(id);
+      var ok = setValidity(input, validators[id](input.value));
+      if (!ok) { allOk = false; if (!firstBad) firstBad = input; }
+    });
+    if (!allOk) {
+      errorSummary.textContent = 'A few fields need attention — please check the highlighted fields and try again.';
+      errorSummary.classList.add('show');
+      errorSummary.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (firstBad) firstBad.focus({ preventScroll: true });
+      return;
+    }
+    errorSummary.classList.remove('show');
+    var ref = 'PP-' + Array.from(crypto.getRandomValues(new Uint8Array(6))).map(function(b){return 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'[b%31];}).join('');
+    var lines = [
+      'PARTNER APPLICATION — Rich Calls — Pay-Per-Call Partner Network',
+      'Reference: ' + ref,
+      '----------------------------------------',
+      'Full name: ' + field('fName').value.trim(),
+      'Country: ' + field('fCountry').value,
+      'City: ' + field('fCity').value.trim(),
+      'WhatsApp: ' + field('fWhatsapp').value.trim(),
+      'Email: ' + field('fEmail').value.trim(),
+      'Written English: ' + field('fEnglish').value,
+      'Device: ' + field('fDevice').value,
+      'Hours per day: ' + field('fHours').value,
+      'Marketplace experience: ' + field('fExperience').value,
+      'Campaign: ' + field('fCampaign').value,
+      'Languages: ' + field('fLanguages').value.trim(),
+      'Shift: ' + field('fShift').value,
+      '',
+      'Screening reply (homeowner: "Hi, my kitchen sink is leaking badly — can someone come today? What would it cost?"):',
+      field('fReply').value.trim()
+    ];
+    var referral = field('fReferral').value.trim();
+    if (referral) { lines.push('Referral: ' + referral); }
+    var about = field('fAbout').value.trim();
+    if (about) { lines.push('', 'Anything else:', about); }
+    currentText = lines.join('\n');
+    refCodeEl.textContent = ref;
+    appTextEl.textContent = currentText;
+    copiedMsg.hidden = true;
+    var cfg = window.__RC__ || {};
+    if (!cfg.url || !cfg.key || cfg.url.indexOf('__SUPABASE') === 0) {
+      errorSummary.textContent = 'Applications are not open yet on this copy of the site — please try again shortly.';
+      errorSummary.classList.add('show');
+      return;
+    }
+    var payload = {
+      full_name: field('fName').value.trim(),
+      country: field('fCountry').value,
+      city: field('fCity').value.trim(),
+      whatsapp: field('fWhatsapp').value.trim(),
+      email: field('fEmail').value.trim(),
+      languages: field('fLanguages').value.trim(),
+      english_level: field('fEnglish').value,
+      device: field('fDevice').value,
+      hours: field('fHours').value,
+      shift_availability: field('fShift').value,
+      experience: field('fExperience').value,
+      campaign: field('fCampaign').value,
+      screening_reply: field('fReply').value.trim(),
+      referral: referral || null,
+      about: about || null,
+      reference_code: ref
+    };
+    var submitBtn = form.querySelector('button[type="submit"]');
+    if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Sending…'; }
+    fetch(cfg.url + '/rest/v1/partner_applications', {
+      method: 'POST',
+      headers: { 'apikey': cfg.key, 'Authorization': 'Bearer ' + cfg.key, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+      body: JSON.stringify(payload)
+    }).then(function (r) {
+      if (!r.ok) throw new Error('submit failed ' + r.status);
+      form.style.display = 'none';
+      result.classList.add('show');
+      result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      result.focus({ preventScroll: true });
+    }).catch(function () {
+      errorSummary.textContent = 'Your application could not be sent — please check your connection and try again. Your answers are still in the form.';
+      errorSummary.classList.add('show');
+      errorSummary.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }).finally(function () {
+      if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'Submit my application'; }
+    });
+  });
+  document.getElementById('copyBtn').addEventListener('click', function () {
+    function done() { copiedMsg.hidden = false; setTimeout(function () { copiedMsg.hidden = true; }, 4000); }
+    function fallbackCopy() {
+      var ta = document.createElement('textarea');
+      ta.value = currentText; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch (err) {}
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(currentText).then(done, function () { fallbackCopy(); done(); });
+    } else { fallbackCopy(); done(); }
+  });
+  document.getElementById('downloadBtn').addEventListener('click', function () {
+    var blob = new Blob([currentText], { type: 'text/plain;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = 'partner-application-' + refCodeEl.textContent + '.txt';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+  });
+  document.getElementById('againBtn').addEventListener('click', function () {
+    form.reset();
+    Object.keys(validators).forEach(function (id) { setValidity(field(id), true); });
+    errorSummary.classList.remove('show');
+    result.classList.remove('show');
+    form.style.display = '';
+    document.getElementById('apply').scrollIntoView({ behavior: 'smooth' });
+    field('fName').focus({ preventScroll: true });
+  });
+})();
+</script>
+</body>
+</html>
